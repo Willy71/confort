@@ -13,5 +13,18 @@
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C. Criterios de Aceptación 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D. Prioridad e. Fecha estimada de entrega. 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E. Colocar prioridad en base a Fibonacci 
+#### .                                       
+#### .  
+#### 3) Elaborar backlog técnico y funcional de un primer sprint/ Excel, spreadsheet con acceso al docente de clase. 
+#### .                                       
+#### .
+#### 4) Llevar ese backlog a Jira/ Board . 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A. Construir tablero de cero. 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B. No está permitido usar un tablero comunitario ni los creados en el workshop debes crear uno nuevo con tu cuenta personal de Jira. 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C. Si Jira se les bloquea, pueden usar Aasana, Click Up o Trello o alguna herramienta de las que el profesor demostró en clase.  
+https://tradingmcz.atlassian.net/jira/software/projects/CSLEEM/boards/2/backlog
+#### .                                       
+#### .
+#### 5) Adherir diagrama de flujo derivado de la información del backlog de acuerdo a lo visto en clase ver ejemplos de clase (Nombrar la clase) 
 
 
