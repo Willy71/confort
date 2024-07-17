@@ -20,9 +20,9 @@
 #### .
 #### 4) Llevar ese backlog a Jira/ Board . 
 #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A. Construir tablero de cero. 
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B. No está permitido usar un tablero comunitario ni los creados en el workshop debes crear uno nuevo con tu cuenta personal de Jira. 
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C. Si Jira se les bloquea, pueden usar Aasana, Click Up o Trello o alguna herramienta de las que el profesor demostró en clase.  
-https://tradingmcz.atlassian.net/jira/software/projects/CSLEEM/boards/2/backlog
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B. No está permitido usar un tablero comunitario ni los creados en el workshop debes crear uno nuevo con tu cuenta personal de 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Jira. 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C. Si Jira se les bloquea, pueden usar Aasana, Click Up o Trello o alguna herramienta de las que el profesor demostró en clase. 
 #### .                                       
 #### .
 #### 5) Adherir diagrama de flujo derivado de la información del backlog de acuerdo a lo visto en clase ver ejemplos de clase (Nombrar la clase) 
