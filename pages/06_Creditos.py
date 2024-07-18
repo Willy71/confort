@@ -73,7 +73,7 @@ with st.container():
     col41, col42, col43 = st.columns(3)
     with col41:
         centrar_imagen("https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png", 80)
-        centrar_texto_link("Kaggle", "https://www.kaggle.com/willycerato", 6, 'white')
+        centrar_texto_link("   Kaggle", "https://www.kaggle.com/willycerato", 6, 'white')
     with col42:
         centrar_imagen("https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png", 80)
         centrar_texto_link("Github", "https://github.com/Willy71", 6, 'white')
