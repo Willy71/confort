@@ -57,7 +57,7 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e
 
 centrar_texto("Curso realizado por Silvertech, en colaboración con", 2, 'white')
 centrar_texto("Eidos Global y Diagonal Asociación Civil", 2, 'white')
-st.text("")
+st.subheader("")
 with st.container():
     col01, col02, col03, col04, col05 = st.columns([2,2,2,2,0.5])
     with col02:
