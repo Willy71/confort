@@ -25,7 +25,7 @@ def texto(texto, tamanho, color):
             unsafe_allow_html=True)
     
 def centrar_texto_link(link_texto, link_url, tamanho, color):
-    texto_html = f"<h{tamanho} style='text-align: center; color: {color}'><a href='{link_url}' target='_blank'>{link_texto}</a></h{tamanho}>"
+    texto_html = f"<h{tamanho} style='text-align: center; color: {color}'><a href='{link_url}' target='_blank'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{link_texto}</a></h{tamanho}>"
     st.markdown(texto_html, unsafe_allow_html=True)
     
 def centrar_imagen_link(imagen, link, nombre, ancho):
@@ -73,7 +73,7 @@ with st.container():
     col41, col42, col43 = st.columns(3)
     with col41:
         centrar_imagen("https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/189_Kaggle_logo_logos-512.png", 80)
-        centrar_texto_link("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kaggle", "https://www.kaggle.com/willycerato", 6, 'white')
+        centrar_texto_link("Kaggle", "https://www.kaggle.com/willycerato", 6, 'white')
     with col42:
         centrar_imagen("https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png", 80)
         centrar_texto_link("Github", "https://github.com/Willy71", 6, 'white')
