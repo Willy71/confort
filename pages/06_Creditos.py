@@ -97,8 +97,8 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e
 with st.container():
     col51, col52 = st.columns(2)
     with col51:
-        st.markdown("<h2 style='text-align: center; color: white'>Website made with Streamlit</h2>", unsafe_allow_html=True)
-        st.markdown("<h2 style='text-align: center; color: blue;'>Programmed with Python</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align: center; color: white'>Website made with Streamlit framework</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align: center; color: blue;'>Programmed with Python for Guillermo Cerato</h2>", unsafe_allow_html=True)
     with col52:
         co53, col54, col55, col56, col57 = st.columns(5)
         with col54:            
