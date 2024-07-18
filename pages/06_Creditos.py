@@ -61,8 +61,8 @@ centrar_texto("Creditos - Guillermo Cerato", 1, 'white')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 
-centrar_texto("Curso realizado por Silvertech, en colaboración con", 2, 'white')
-centrar_texto("Eidos Global y Diagonal Asociación Civil", 2, 'white')
+centrar_texto("Curso realizado por Silvertech, en colaboración con Eidos Global y Diagonal Asociación Civil", 2, 'white')
+#centrar_texto("Eidos Global y Diagonal Asociación Civil", 2, 'white')
 st.subheader("")
 with st.container():
     col01, col02, col03, col04, col05 = st.columns([1.7,2,2,2,0.5])
