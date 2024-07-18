@@ -104,8 +104,12 @@ with st.container():
         with col54:            
             st.text(" ")
             st.text(" ")
-            photo_link('', "https://i.postimg.cc/cJhYJnqx/streamlit-logo.jpg", 'https://streamlit.io/', 150)
+            photo_link('', "https://i.postimg.cc/cJhYJnqx/streamlit-logo.jpg", 'https://streamlit.io/', 200)
         with col56:
-            photo_link('', "https://i.postimg.cc/9Q3yg2th/python.png", 'https://www.python.org', 150)
+            photo_link('', "https://i.postimg.cc/9Q3yg2th/python.png", 'https://www.python.org', 200)
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+
+centrar_texto_link("Link del repositorio de esta presentación", "https://github.com/Willy71/confort/tree/main", 4, 'blue')
             
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
