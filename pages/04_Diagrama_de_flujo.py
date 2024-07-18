@@ -39,6 +39,12 @@ centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/018.png?ra
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#a2129f;" /> """, unsafe_allow_html=True)
 
+centrar_texto("Las partes resaltadas con cuadrantes verde claro son las agregadas por la nueva funcionalidad", 2, 'white')
+st.subheader("")
+centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/019.png?raw=true", 1200)
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#a2129f;" /> """, unsafe_allow_html=True)
+
 centrar_texto("Diagrama de flujo del proyecto - Funcionamiento general", 2, 'white')
 st.subheader("")
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/012.png?raw=true", 1200)
