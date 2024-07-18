@@ -32,8 +32,7 @@ centrar_texto("Jira - Instructivo", 1, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ef5626;" /> """, unsafe_allow_html=True)
 
 texto("1er Paso - Luego de crear una cuenta y de confirmar via email, loguearse en la cuenta.", 5, 'white')
-texto("2do Paso - En la pagina principal de la cuenta, hacer click en el 'PROYECTO', y luego en 'CREAR PROYECTO'", 5, 'white') 
-texto("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;en el menu desplegable, como se muestra en la figura.", 5, 'white')
+texto("2do Paso - En la pagina principal de la cuenta, hacer click en el 'PROYECTO', y luego en 'CREAR PROYECTO' en el menu desplegable, como se muestra en la figura.", 5, 'white') 
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/jira_001.png?raw=true", 700)
 
 st.subheader("")
@@ -53,9 +52,7 @@ texto("6to Paso - Hacer click en 'PROYECTO GESTIONADO POR EL EQUIPO'", 5, 'white
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/jira_005.png?raw=true", 700)
 
 st.subheader("")
-texto("7mo Paso - Colocar el nombre del proyecto, luego seleccionar el tipo de acceso, en mi caso coloque abierto", 5, 'white')
-texto("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;para que cualquiera que tenga el link de mi proyecto pueda acceder a verlo. A continuación hacer", 5, 'white')
-texto("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;click en 'SIGUIENTE'", 5, 'white')
+texto("7mo Paso - Colocar el nombre del proyecto, luego seleccionar el tipo de acceso, en mi caso coloque abierto para que cualquiera que tenga el link de mi proyecto pueda acceder a verlo. A continuación hacer click en 'SIGUIENTE'", 5, 'white')
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/jira_006.png?raw=true", 700)
 
 st.subheader("")
@@ -66,14 +63,11 @@ st.subheader("")
 texto("Ya estariamos listos para comenzar a adicionar historias, solo que antes es conveniente agregar algunos 'TIPOS DE INCIDENCIA', como por ejemplo 'CRITERIO DE ACEPTACIÓN', 'PRIORIDAD' Y 'FECHA ESTIMADA DE ENTREGA'", 5, 'white')
 
 st.subheader("")
-texto("9no Paso - Hacer click en 'CONFIGURACIONES DEL PROYECTO' en el costado izquierdo de la pagina (1)", 5, 'white')
-texto("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;luego hacer click en 'TIPOS DE INCIDENCIA (2), y luego hacer click en 'STORY' (3)" , 5, 'white')
+texto("9no Paso - Hacer click en 'CONFIGURACIONES DEL PROYECTO' en el costado izquierdo de la pagina (1) luego hacer click en 'TIPOS DE INCIDENCIA (2), y luego hacer click en 'STORY' (3)", 5, 'white')
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/jira_008.png?raw=true", 700)
 
 st.subheader("")
-texto("10mo Paso - Para agregar el item 'CRITERIOS DE ACEPTACIÓN', haga click en 'PARRAFO' del lado derecho", 5, 'white')
-texto("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;de la pantalla. Luego coloque el nombre 'CRITERIO DE ACEPTACIÓN', luego una breve", 5, 'white')
-texto("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;descripción, y para finalizar esta etapa haga click en 'GUARDAR CAMBIOS'.", 5, 'white')
+texto("10mo Paso - Para agregar el item 'CRITERIOS DE ACEPTACIÓN', haga click en 'PARRAFO' del lado derecho de la pantalla. Luego coloque el nombre 'CRITERIO DE ACEPTACIÓN', luego una breve descripción, y para finalizar esta etapa haga click en 'GUARDAR CAMBIOS'", 5, 'white')
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/jira_009.png?raw=true", 700)
 
 st.subheader("")
@@ -85,8 +79,7 @@ texto("Para agregar 'PRIORIDAD' siga las mismas instrucciones que los pasos 10 y
 texto("Para agregar 'FECHA ESTIMADA DE ENTREGA' siga las mismas instrucciones que los pasos 10 y 11, solo que en vez de 'PARRAFO' seleccione 'MARCA DE TIEMPO'", 5, 'white')
 
 st.subheader("")
-texto("12do Paso - Al finalizar guarde los cambios para continuar y vuelva al proyecto a traves de las flechas en la", 5, 'white')
-texto("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;parte superior izquierda de la pagina (dos veces)", 5, 'white')
+texto("12do Paso - Al finalizar guarde los cambios para continuar y vuelva al proyecto a traves de las flechas en la parte superior izquierda de la pagina (dos veces)", 5, 'white')
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/jira_011.png?raw=true", 700)
 
 st.subheader("")
@@ -102,8 +95,7 @@ texto("15to Paso - Haga click la flecha de la lista desplegable. Luego seleccion
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/jira_014.png?raw=true", 700)
 
 st.subheader("")
-texto("16to Paso - Coloque el nombre de la historia y aprete 'ENTER'. Ahora ya esta listo para agregar todos los ", 5, 'white')
-texto("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;campos del lado derecho de la pantalla", 5, 'white')
+texto("16to Paso - Coloque el nombre de la historia y aprete 'ENTER'. Ahora ya esta listo para agregar todos los campos del lado derecho de la pantalla", 5, 'white')
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/jira_015.png?raw=true", 700)
 
 st.subheader("")
