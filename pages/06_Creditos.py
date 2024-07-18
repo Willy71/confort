@@ -25,7 +25,7 @@ def texto(texto, tamanho, color):
             unsafe_allow_html=True)
     
 def centrar_texto_link(link_texto, link_url, tamanho, color):
-    texto_html = f"<h{tamanho} style='text-align: center; color: {color}'><a href='{link_url}' style='text_decoration: none;' target='_blank'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{link_texto}</a></h{tamanho}>"
+    texto_html = f"<h{tamanho} style='text-align: center; color: {color}'><a href='{link_url}' style='text-decoration: none;' target='_blank'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{link_texto}</a></h{tamanho}>"
     st.markdown(texto_html, unsafe_allow_html=True)
     
 def centrar_imagen_link(imagen, link, nombre, ancho):
