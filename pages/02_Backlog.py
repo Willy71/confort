@@ -40,7 +40,7 @@ texto('Historia 1 - Personalización de Mapas Interactivos', 4, 'yellow')
 texto('Descripción: Como usuario, quiero poder personalizar los mapas interactivos con mis propios puntos de interés, para adaptar el mapa a mis necesidades. ', 5, 'white')
 texto('Criterios de Aceptación:', 5, 'white')
 with st.container():    
-    col01, col02 = st.columns([1.4,5]) 
+    col01, col02 = st.columns([0.5,6]) 
     with col01:
         texto("",6,'white')
     with col02:
