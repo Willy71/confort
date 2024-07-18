@@ -108,7 +108,7 @@ texto('Prioridad: 1', 5, 'white')
 texto('Fecha estimada de entrega: 23/08/2024', 5, 'white')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
-centrar_texto("Sprint 1", 3, 'white')
+centrar_texto("Sprint 2", 3, 'white')
 centrar_texto("Fecha de inicio: 23/08/2024", 6, 'white')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
