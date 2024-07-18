@@ -41,6 +41,8 @@ texto('Descripción: Como usuario, quiero poder personalizar los mapas interacti
 texto('Criterios de Aceptación:', 5, 'white')
 with st.container():    
     col01, col02 = st.columns([1.4,5]) 
+    with col01:
+        texto("",6,'white')
     with col02:
         texto('- Los usuarios deben poder añadir sus propios puntos de interés al mapa.', 5, 'white') 
         texto('- Debe haber una opción para guardar y editar estos puntos de interés.', 5, 'white')    
