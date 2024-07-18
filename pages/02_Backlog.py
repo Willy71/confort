@@ -42,9 +42,9 @@ texto('Criterios de Aceptación:', 5, 'white')
 with st.container():    
     col01, col02 = st.columns([1.4,5])
     with col01:
-        texto('- Los usuarios deben poder añadir sus propios puntos de interés al mapa.', 5, 'white')        
+        centrar_texto('- Los usuarios deben poder añadir sus propios puntos de interés al mapa.', 5, 'white')        
     with col02:
-        texto('- Debe haber una opción para guardar y editar estos puntos de interés.', 5, 'white')    
+        centrar_texto('- Debe haber una opción para guardar y editar estos puntos de interés.', 5, 'white')    
 texto('Prioridad: 3', 5, 'white')  
 texto('Fecha estimada de entrega: 23/08/2024', 5, 'white')
 
