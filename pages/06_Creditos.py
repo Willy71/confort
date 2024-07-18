@@ -103,7 +103,7 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e
 with st.container():
     col51, col52, col53, col54 = st.columns([4,0.5,1,0.5])
     with col51:
-        texto("Website made with Streamlit framework", 2, 'white')   
+        centrar_texto("Website made with Streamlit framework", 2, 'white')   
     with col53:            
         photo_link('', "https://i.postimg.cc/cJhYJnqx/streamlit-logo.jpg", 'https://streamlit.io/', 120)
         
@@ -112,7 +112,7 @@ with st.container():
     col55, col56, col57, col58 = st.columns([4,0.5,1,0.5])
     with col55:
         st.text("")
-        texto("Programmed with Python for Guillermo Cerato", 2, 'blue')
+        centrar_texto("Programmed with Python for Guillermo Cerato", 2, 'blue')
     with col57:
         photo_link('', "https://i.postimg.cc/9Q3yg2th/python.png", 'https://www.python.org', 120)
         
