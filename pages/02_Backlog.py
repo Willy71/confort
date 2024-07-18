@@ -41,8 +41,8 @@ texto('Descripción: Como usuario, quiero poder personalizar los mapas interacti
 texto('Criterios de Aceptación:', 5, 'white')
 centrar_texto('- Los usuarios deben poder añadir sus propios puntos de interés al mapa.', 5, 'white')
 centrar_texto('- Debe haber una opción para guardar y editar estos puntos de interés.', 5, 'white')
-texto('Prioridad: 3', 5, 'white')  
-texto('Fecha estimada de entrega: 23/08/2024', 5, 'white')
+centrar_texto('Prioridad: 3', 5, 'white')  
+centrar_texto('Fecha estimada de entrega: 23/08/2024', 5, 'white')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 2 - Filtro de Puntos de Interés ', 4, 'yellow')
