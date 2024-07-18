@@ -59,7 +59,7 @@ centrar_texto("Curso realizado por Silvertech, en colaboración con", 2, 'white'
 centrar_texto("Eidos Global y Diagonal Asociación Civil", 2, 'white')
 st.subheader("")
 with st.container():
-    col01, col02, col03, col04, col05 = st.columns([2,2,2,2,0.5])
+    col01, col02, col03, col04, col05 = st.columns([1.7,2,2,2,0.5])
     with col02:
         photo_link("Silvertech", "https://github.com/Willy71/confort/blob/main/pictures/Silvertech.png?raw=true", "https://www.soysilvertech.org/comunidad", 110)
     with col03:
