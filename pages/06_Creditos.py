@@ -64,7 +64,7 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e
 centrar_texto("Curso realizado por Silvertech, en colaboración con Eidos Global y Diagonal Asociación Civil", 2, 'white')
 #centrar_texto("Eidos Global y Diagonal Asociación Civil", 2, 'white')
 with st.container():
-    col01, col02, col03, col04, col05 = st.columns([1.2,2,2,2,0.5])
+    col01, col02, col03, col04, col05 = st.columns([0.5,2,2,2,0.5])
     with col02:
         st.text("")
         photo_link("Silvertech", "https://github.com/Willy71/confort/blob/main/pictures/Silvertech.png?raw=true", "https://www.soysilvertech.org/comunidad", 150)
