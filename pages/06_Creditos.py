@@ -110,6 +110,6 @@ with st.container():
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 
-centrar_texto_link("Link del repositorio de esta presentación", "https://github.com/Willy71/confort/tree/main", 4, 'blue')
+centrar_texto_link("Link del repositorio de Github de esta presentación", "https://github.com/Willy71/confort/tree/main", 4, 'blue')
             
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
