@@ -56,7 +56,7 @@ centrar_texto("Creditos - Guillermo Cerato", 1, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 
 with st.container():
-    col01, col02, col03, col04, col05 = st.columns([1.2,1.5,1.5,1.5,0.5])
+    col01, col02, col03, col04, col05 = st.columns([1.2,2,2,2,0.5])
     with col02:
         photo_link("Silvertech", "https://github.com/Willy71/confort/blob/main/pictures/Silvertech.png?raw=true", "https://www.soysilvertech.org/comunidad", 90)
     with col03:
