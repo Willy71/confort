@@ -97,16 +97,19 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e
 with st.container():
     col51, col52 = st.columns(2)
     with col51:
-        st.markdown("<h2 style='text-align: center; color: white'>Website made with Streamlit framework</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align: center; color: white'>Website made with Streamlit framework</h2>", unsafe_allow_html=True)   
+    with col52:            
+        st.text(" ")
+        photo_link('', "https://i.postimg.cc/9Q3yg2th/python.png", 'https://www.python.org', 200)
+        
+with st.container():
+    col53, col54 = st.columns(2)
+    with col53:
         st.markdown("<h2 style='text-align: center; color: blue;'>Programmed with Python for Guillermo Cerato</h2>", unsafe_allow_html=True)
-    with col52:
-        co53, col54, col55, col56, col57 = st.columns(5)
-        with col54:            
-            st.text(" ")
-            st.text(" ")
-            photo_link('', "https://i.postimg.cc/cJhYJnqx/streamlit-logo.jpg", 'https://streamlit.io/', 200)
-        with col56:
-            photo_link('', "https://i.postimg.cc/9Q3yg2th/python.png", 'https://www.python.org', 200)
+    with col54:
+        st.text(" ")
+        photo_link('', "https://i.postimg.cc/cJhYJnqx/streamlit-logo.jpg", 'https://streamlit.io/', 200)
+        
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 
