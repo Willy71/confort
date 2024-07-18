@@ -61,7 +61,7 @@ st.subheader("")
 with st.container():
     col01, col02, col03, col04, col05 = st.columns([1.7,2,2,2,0.5])
     with col02:
-        photo_link("Silvertech", "https://github.com/Willy71/confort/blob/main/pictures/Silvertech.png?raw=true", "https://www.soysilvertech.org/comunidad", 110)
+        photo_link("Silvertech", "https://github.com/Willy71/confort/blob/main/pictures/Silvertech.png?raw=true", "https://www.soysilvertech.org/comunidad", 180)
     with col03:
         photo_link("Eidos", "https://github.com/Willy71/confort/blob/main/pictures/Eidos.png?raw=true", "https://www.eidosglobal.org/", 110)
     with col04:
