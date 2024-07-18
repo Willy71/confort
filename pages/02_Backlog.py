@@ -38,12 +38,14 @@ centrar_texto("Fecha de inicio: 09/08/2024", 6, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 1 - Personalización de Mapas Interactivos', 4, 'yellow')
 texto('Descripción: Como usuario, quiero poder personalizar los mapas interactivos con mis propios puntos de interés, para adaptar el mapa a mis necesidades. ', 5, 'white')
+st.text("")
 texto('Criterios de Aceptación:', 5, 'white')
 with st.container():    
     col01, col02 = st.columns([0.5,6]) 
     with col02:
         texto('- Los usuarios deben poder añadir sus propios puntos de interés al mapa.', 5, 'lightgrey') 
-        texto('- Debe haber una opción para guardar y editar estos puntos de interés.', 5, 'lightgrey')    
+        texto('- Debe haber una opción para guardar y editar estos puntos de interés.', 5, 'lightgrey')
+st.text("")
 texto('Prioridad: 3', 5, 'white')  
 texto('Fecha estimada de entrega: 23/08/2024', 5, 'white')
 
