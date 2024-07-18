@@ -40,11 +40,10 @@ texto('Historia 1 - Personalización de Mapas Interactivos', 4, 'yellow')
 texto('Descripción: Como usuario, quiero poder personalizar los mapas interactivos con mis propios puntos de interés, para adaptar el mapa a mis necesidades. ', 5, 'white')
 texto('Criterios de Aceptación:', 5, 'white')
 with st.container():    
-    col01, col02 = st.columns([1.4,5])
-    with col01:
-        centrar_texto('- Los usuarios deben poder añadir sus propios puntos de interés al mapa.', 5, 'white')        
+    col01, col02 = st.columns([1.4,5]) 
     with col02:
-        centrar_texto('- Debe haber una opción para guardar y editar estos puntos de interés.', 5, 'white')    
+        texto('- Los usuarios deben poder añadir sus propios puntos de interés al mapa.', 5, 'white') 
+        texto('- Debe haber una opción para guardar y editar estos puntos de interés.', 5, 'white')    
 texto('Prioridad: 3', 5, 'white')  
 texto('Fecha estimada de entrega: 23/08/2024', 5, 'white')
 
