@@ -57,15 +57,15 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e
 
 centrar_texto("Curso realizado por Silvertech, en colaboración con", 2, 'white')
 centrar_texto("Eidos Global y Diagonal Asociación Civil", 2, 'white')
-
+st.text("")
 with st.container():
     col01, col02, col03, col04, col05 = st.columns([2,2,2,2,0.5])
     with col02:
-        photo_link("Silvertech", "https://github.com/Willy71/confort/blob/main/pictures/Silvertech.png?raw=true", "https://www.soysilvertech.org/comunidad", 90)
+        photo_link("Silvertech", "https://github.com/Willy71/confort/blob/main/pictures/Silvertech.png?raw=true", "https://www.soysilvertech.org/comunidad", 110)
     with col03:
-        photo_link("Eidos", "https://github.com/Willy71/confort/blob/main/pictures/Eidos.png?raw=true", "https://www.eidosglobal.org/", 90)
+        photo_link("Eidos", "https://github.com/Willy71/confort/blob/main/pictures/Eidos.png?raw=true", "https://www.eidosglobal.org/", 110)
     with col04:
-        photo_link("Diagonal", "https://github.com/Willy71/confort/blob/main/pictures/diagonal.png?raw=true", "https://diagonal.org.ar/", 90)
+        photo_link("Diagonal", "https://github.com/Willy71/confort/blob/main/pictures/diagonal.png?raw=true", "https://diagonal.org.ar/", 110)
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 
