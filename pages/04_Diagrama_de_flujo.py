@@ -46,9 +46,8 @@ centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/019.png?ra
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#a2129f;" /> """, unsafe_allow_html=True)
 
 centrar_texto("Diagrama de flujo del proyecto 'Nueva funcionalidad'", 2, 'white')
-texto("Los cuadrantes de color violeta son mas relevantes para el usuario final. Los dos cuadrantes de color verde oscuro son mas relevantes para los administradores de la aplicacón", 6, 'yellow')
 
 st.subheader("")
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/012.png?raw=true", 1200)
 
-
+texto("Los cuadrantes de color violeta son mas relevantes para el usuario final. Los dos cuadrantes de color verde oscuro son mas relevantes para los administradores de la aplicacón", 6, 'yellow')
