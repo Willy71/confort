@@ -105,7 +105,7 @@ with st.container():
 with st.container():
     col55, col56, col57, col58 = st.columns([4,0.5,1,0.5])
     with col55:
-        st.texto("")
+        st.text("")
         texto("Programmed with Python for Guillermo Cerato", 2, 'blue')
     with col57:
         photo_link('', "https://i.postimg.cc/9Q3yg2th/python.png", 'https://www.python.org', 120)
