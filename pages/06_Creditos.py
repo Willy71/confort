@@ -80,6 +80,7 @@ with st.container():
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 
+centrar_texto("Redes sociales", 1, 'white')
 with st.container():    
     col41, col42, col43 = st.columns(3)
     with col41:
