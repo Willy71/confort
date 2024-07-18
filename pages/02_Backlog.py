@@ -73,7 +73,7 @@ with st.container():
     with col06:
         texto('- Los usuarios deben poder seleccionar y reservar experiencias desde la página del alojamiento.', 5, 'lightgrey')
         texto('- La reserva de la experiencia debe estar vinculada a la reserva del alojamiento.', 5, 'lightgrey')
-centrar_texto('- Debe haber confirmación y detalles de la reserva de la experiencia.', 5, 'white')
+centrar_texto('- Debe haber confirmación y detalles de la reserva de la experiencia.', 5, 'lightgrey')
 st.text("")
 texto('Prioridad: 5 ', 5, 'white')  
 texto('Fecha estimada de entrega: 23/08/2024', 5, 'white')
