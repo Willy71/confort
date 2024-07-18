@@ -29,7 +29,7 @@ def centrar_texto_link(link_texto, link_url, tamanho, color):
     st.markdown(texto_html, unsafe_allow_html=True)
     
 centrar_texto("Video de presentación del proyecto", 1, 'white')
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1717dc;" /> """, unsafe_allow_html=True)
 
 VIDEO_URL = "https://youtu.be/FkA7hM8rkck?si=gPtdfbA7CKgGx_Ly"
 st.video(VIDEO_URL)
