@@ -78,6 +78,10 @@ with st.container():
         st.text("")
         photo_link("Diagonal", "https://github.com/Willy71/confort/blob/main/pictures/diagonal.png?raw=true", "https://diagonal.org.ar/", 140)
 
+
+#https://www.hibolster.com/index.html
+#https://bidlab.org/es
+
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 
 centrar_texto("Redes sociales", 1, 'white')
