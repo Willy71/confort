@@ -78,7 +78,7 @@ with st.container():
     col01, col02, col03, col04 = st.columns(4)
     with col01:
         st.text("")
-         photo_link("Diagonal", "https://github.com/Willy71/confort/blob/main/pictures/diagonal.png?raw=true", "https://diagonal.org.ar/", 140)
+        photo_link("Diagonal", "https://github.com/Willy71/confort/blob/main/pictures/diagonal.png?raw=true", "https://diagonal.org.ar/", 140)
     with col02:
         st.text("")
         photo_link("Bolster", "https://github.com/Willy71/confort/blob/main/pictures/Bolster.png?raw=true", "https://www.hibolster.com/index.html", 150)
