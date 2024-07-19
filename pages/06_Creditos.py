@@ -82,7 +82,7 @@ with st.container():
     with col02:
         st.text("")
         photo_link("Bolster", "https://github.com/Willy71/confort/blob/main/pictures/Bolster.png?raw=true", "https://www.hibolster.com/index.html", 150)
-    with col02:
+    with col03:
         st.text("")
         photo_link("Eidos", "https://github.com/Willy71/confort/blob/main/pictures/Eidos.png?raw=true", "https://www.eidosglobal.org/", 150)
     with col04:
