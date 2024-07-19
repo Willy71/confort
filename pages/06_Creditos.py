@@ -65,14 +65,14 @@ centrar_texto("Guillermo Cerato", 1, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 
 centrar_texto("Curso realizado por Silvertech", 2, 'white')
-photo_link("Silvertech", "https://github.com/Willy71/confort/blob/main/pictures/Silvertech.png?raw=true", "https://www.soysilvertech.org/comunidad", 150)
+photo_link("Silvertech", "https://github.com/Willy71/confort/blob/main/pictures/Silvertech.png?raw=true", "https://www.soysilvertech.org/comunidad", 200)
 
 with st.container():
     col10, col11 = st.columns(2)
     with col10:
-        centrar_texto("Socios estratégicos", 2, 'white')
+        centrar_texto("Socios estratégicos", 4, 'white')
     with col11:
-        centrar_texto("Impulsan", 2, 'white')
+        centrar_texto("Impulsan", 4, 'white')
         
 with st.container():
     col01, col02, col03, col04 = st.columns(4)
