@@ -87,7 +87,7 @@ with st.container():
         photo_link("Eidos", "https://github.com/Willy71/confort/blob/main/pictures/Eidos.png?raw=true", "https://www.eidosglobal.org/", 150)
     with col04:
         st.text("")
-        photo_link("Bid Lab", "https://github.com/Willy71/confort/blob/main/pictures/bid%20lab.png?raw=true", "https://bidlab.org/es", 150)
+        photo_link("Bid Lab", "https://github.com/Willy71/confort/blob/main/pictures/bid%20lab.png?raw=true", "https://bidlab.org/es", 180)
        
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 
