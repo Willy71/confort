@@ -64,24 +64,31 @@ centrar_texto("Guillermo Cerato", 1, 'white')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 
-centrar_texto("Curso realizado por Silvertech, en colaboración con Eidos Global y Diagonal Asociación Civil", 2, 'white')
-#centrar_texto("Eidos Global y Diagonal Asociación Civil", 2, 'white')
+centrar_texto("Curso realizado por Silvertech", 2, 'white')
+photo_link("Silvertech", "https://github.com/Willy71/confort/blob/main/pictures/Silvertech.png?raw=true", "https://www.soysilvertech.org/comunidad", 150)
+
 with st.container():
-    col01, col02, col03, col04, col05 = st.columns([0.5,2,2,2,0.5])
+    col10, col11 = st.columns(2)
+    with col10:
+        centrar_texto("Socios estratégicos", 2, 'white')
+    with col11:
+        centrar_texto("Impulsan", 2, 'white')
+        
+with st.container():
+    col01, col02, col03, col04 = st.columns(4)
+    with col01:
+        st.text("")
+         photo_link("Diagonal", "https://github.com/Willy71/confort/blob/main/pictures/diagonal.png?raw=true", "https://diagonal.org.ar/", 140)
     with col02:
         st.text("")
-        photo_link("Silvertech", "https://github.com/Willy71/confort/blob/main/pictures/Silvertech.png?raw=true", "https://www.soysilvertech.org/comunidad", 150)
-    with col03:
+        photo_link("Bolster", "https://github.com/Willy71/confort/blob/main/pictures/Bolster.png?raw=true", "https://www.hibolster.com/index.html", 150)
+    with col02:
         st.text("")
         photo_link("Eidos", "https://github.com/Willy71/confort/blob/main/pictures/Eidos.png?raw=true", "https://www.eidosglobal.org/", 150)
     with col04:
         st.text("")
-        photo_link("Diagonal", "https://github.com/Willy71/confort/blob/main/pictures/diagonal.png?raw=true", "https://diagonal.org.ar/", 140)
-
-
-#https://www.hibolster.com/index.html
-#https://bidlab.org/es
-
+        photo_link("Bid Lab", "https://github.com/Willy71/confort/blob/main/pictures/bid%20lab.png?raw=true", "https://bidlab.org/es", 150)
+       
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 
 centrar_texto("Redes sociales", 1, 'white')
