@@ -111,14 +111,6 @@ texto('c. Comentarios:', 5, 'lightblue')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
 
-texto('', 4, 'white') 
-texto('a. ', 5, 'lightblue')
-texto('b. ', 5, 'lightblue')
-texto('c. ', 5, 'lightblue')
-texto('d. ', 5, 'lightblue')
-
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
-
 texto('11. Edad:', 4, 'white') 
 texto('a. de 18 a 25 años', 5, 'lightblue')
 texto('b. de 26 a 35 años', 5, 'lightblue')
