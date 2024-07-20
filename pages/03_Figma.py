@@ -75,6 +75,11 @@ centrar_texto("Integración con el Sistema de Reservas", 3, 'white')
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20003.png?raw=true", 500)
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+centrar_texto("Imagen para la Historia 4", 3, 'white')
+centrar_texto("Sección de Opiniones de Experiencias", 3, 'white')
+centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20004.png?raw=true", 500)
+               
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 centrar_texto("Imagen para la Historia 5", 3, 'white')
 centrar_texto("Notificaciones de Reservas de Experiencias", 3, 'white')
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20005.png?raw=true", 400)
