@@ -25,7 +25,7 @@ def texto(texto, tamanho, color):
             unsafe_allow_html=True)
     
 def centrar_texto_link(link_texto, link_url, tamanho, color):
-    texto_html = f"<h{tamanho} style='text-align: center; color: {color}'><a href='{link_url}' target='_blank'>{link_texto}</a></h{tamanho}>"
+    texto_html = f"<h{tamanho} style='text-align: left; color: {color}'><a href='{link_url}' target='_blank'>{link_texto}</a></h{tamanho}>"
     st.markdown(texto_html, unsafe_allow_html=True)
 
 centrar_texto("Épica: Experiencias y Mapas Interactivos", 1, 'white')
@@ -37,6 +37,7 @@ centrar_texto("Fecha de inicio: 09/08/2024", 6, 'white')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 1 - Personalización de Mapas Interactivos', 4, 'yellow')
+centrar_texto_link("Link a Historia 1 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-12?atlOrigin=eyJpIjoiZDFhOTRlYmJkZmU3NGMxYmI4MjFlNjFiZmQ0NTYzODMiLCJwIjoiaiJ9", 5, 'blue')
 texto('Descripción: Como usuario, quiero poder personalizar los mapas interactivos con mis propios puntos de interés, para adaptar el mapa a mis necesidades. ', 5, 'white')
 st.text("")
 texto('Criterios de Aceptación:', 5, 'white')
