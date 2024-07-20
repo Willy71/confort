@@ -41,7 +41,8 @@ texto('La funcionalidad elegida, fue la “a”, para recomendaciones de eventos
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
 texto('Luego de realizar una versión beta de la nueva funcionalidad, se encuesto a algunos usuarios de la app con las siguientes preguntas: ', 4, 'white') 
-st.header("")
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
+
 texto('1. Cual es el motivo principal de uso de la app?', 4, 'white') 
 texto('a. Turismo', 5, 'lightblue')
 texto('b. Viajes de Negocios', 5, 'lightblue')
