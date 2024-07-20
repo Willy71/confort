@@ -152,6 +152,7 @@ st.text("")
 texto('Prioridad: 5', 5, 'white')  
 texto('Fecha estimada de entrega: 06/09/2024', 5, 'white')
 centrar_texto_link("Link - Historia 7 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-18?atlOrigin=eyJpIjoiZWE5M2I4MGM3Nzg1NDBiMjk5NWVmNzAxYTYyZGU1NTYiLCJwIjoiaiJ9", 5, 'blue')
+centrar_texto_link("Link - Figma - Experiencias Recomendadas Basadas en Preferencias","https://www.figma.com/proto/MMSnWmgHF5TBpEbxJ9iR8a/Confort-for-Silvertech?node-id=55-536&t=sjRIr3ZMcCqL2YsU-1&scaling=scale-down&content-scaling=fixed&page-id=55%3A535", 5, 'blue')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 8 - Integración de Calendario de Experiencias', 4, 'yellow')
