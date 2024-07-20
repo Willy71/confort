@@ -99,7 +99,8 @@ st.text("")
 texto('Prioridad: 2 ', 5, 'white')  
 texto('Fecha estimada de entrega: 23/08/2024', 5, 'white')
 centrar_texto_link("Link - Historia 4 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-15?atlOrigin=eyJpIjoiZDAwM2Y5Y2NjM2Q1NDgxOWEwZDQwM2ExZTJkZmY2MWMiLCJwIjoiaiJ9", 5, 'blue')
-  
+centrar_texto_link("Link - Figma - Sección de Opiniones de Experiencias", "https://www.figma.com/proto/MMSnWmgHF5TBpEbxJ9iR8a/Confort-for-Silvertech?node-id=49-486&t=NQRdEnrGb5Z2dZf7-1&scaling=scale-down&content-scaling=fixed&page-id=49%3A485", 5, 'blue')
+
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 5 - Notificaciones de Reservas de Experiencias', 4, 'yellow')
 texto('Descripción: Como usuario, quiero recibir notificaciones cuando se confirma una reserva de una experiencia, para estar informado.', 5, 'white')
