@@ -116,6 +116,9 @@ with st.container():
         centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png", 80)
         centrar_texto_link("Whatsapp", "https://wa.me/5542991657847", 6, 'white')
 
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+texto_link("Mi portfolio", "https://guillermocerato.streamlit.app", 3, "blue")
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 
 with st.container():
