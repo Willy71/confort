@@ -65,6 +65,7 @@ st.text("")
 texto('Prioridad: 3 ', 5, 'white')  
 texto('Fecha estimada de entrega: 23/08/2024', 5, 'white')
 centrar_texto_link("Link - Historia 2 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-13?atlOrigin=eyJpIjoiYzllMWZiMzgzMWI2NGYzZWJhMzRhZTVlZDRhNDQ1MDIiLCJwIjoiaiJ9", 5, 'blue')
+centrar_texto_link("Link - Figma - Filtro de Puntos de Interés","https://www.figma.com/proto/MMSnWmgHF5TBpEbxJ9iR8a/Confort-for-Silvertech?node-id=22-44&t=M0aPhHagszvv8BYf-1&scaling=scale-down&content-scaling=fixed&page-id=22%3A43", 5, 'blue')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 3 - Integración con el Sistema de Reservas', 4, 'yellow')
