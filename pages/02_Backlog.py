@@ -48,8 +48,9 @@ with st.container():
 st.text("")
 texto('Prioridad: 3', 5, 'white')  
 texto('Fecha estimada de entrega: 23/08/2024', 5, 'white')
-centrar_texto_link("Link a Historia 1 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-12?atlOrigin=eyJpIjoiZDFhOTRlYmJkZmU3NGMxYmI4MjFlNjFiZmQ0NTYzODMiLCJwIjoiaiJ9", 5, 'blue')
-centrar_texto_link("Link de Figma - Mapas interactivos", "https://www.figma.com/proto/MMSnWmgHF5TBpEbxJ9iR8a/Confort-for-Silvertech?node-id=2-2&t=woONfDytrchqJA9q-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1", 5, "blue")
+centrar_texto_link("Link - Historia 1 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-12?atlOrigin=eyJpIjoiZDFhOTRlYmJkZmU3NGMxYmI4MjFlNjFiZmQ0NTYzODMiLCJwIjoiaiJ9", 5, 'blue')
+centrar_texto_link("Link - Figma - Mapas interactivos", "https://www.figma.com/proto/MMSnWmgHF5TBpEbxJ9iR8a/Confort-for-Silvertech?node-id=2-2&t=woONfDytrchqJA9q-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1", 5, "blue")
+
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 2 - Filtro de Puntos de Interés ', 4, 'yellow')
 texto('Descripción: Como usuario, quiero filtrar los puntos de interés en el mapa por categorías, para encontrar rápidamente lo que me interesa.', 5, 'white')
@@ -79,7 +80,7 @@ centrar_texto('- Debe haber confirmación y detalles de la reserva de la experie
 st.text("")
 texto('Prioridad: 5 ', 5, 'white')  
 texto('Fecha estimada de entrega: 23/08/2024', 5, 'white')
-centrar_texto_link("Link a Historia 3 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-14?atlOrigin=eyJpIjoiZTQxZmJmZjBjYzZlNDU5NGEwY2QwYmQxZDRiOGJlZTMiLCJwIjoiaiJ9", 5, 'blue')
+centrar_texto_link("Link - Historia 3 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-14?atlOrigin=eyJpIjoiZTQxZmJmZjBjYzZlNDU5NGEwY2QwYmQxZDRiOGJlZTMiLCJwIjoiaiJ9", 5, 'blue')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 4 - Sección de Opiniones de Experiencias', 4, 'yellow')
@@ -95,7 +96,7 @@ with st.container():
 st.text("")
 texto('Prioridad: 2 ', 5, 'white')  
 texto('Fecha estimada de entrega: 23/08/2024', 5, 'white')
-centrar_texto_link("Link a Historia 4 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-15?atlOrigin=eyJpIjoiZDAwM2Y5Y2NjM2Q1NDgxOWEwZDQwM2ExZTJkZmY2MWMiLCJwIjoiaiJ9", 5, 'blue')
+centrar_texto_link("Link - Historia 4 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-15?atlOrigin=eyJpIjoiZDAwM2Y5Y2NjM2Q1NDgxOWEwZDQwM2ExZTJkZmY2MWMiLCJwIjoiaiJ9", 5, 'blue')
   
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 5 - Notificaciones de Reservas de Experiencias', 4, 'yellow')
@@ -110,7 +111,7 @@ with st.container():
 st.text("")
 texto('Prioridad: 1', 5, 'white')  
 texto('Fecha estimada de entrega: 23/08/2024', 5, 'white')
-centrar_texto_link("Link a Historia 5 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-16?atlOrigin=eyJpIjoiMWMyMTZlMmNiZjBjNDc4NjkxMzM0ZWUyYjU4OTQ3NzkiLCJwIjoiaiJ9", 5, 'blue')
+centrar_texto_link("Link - Historia 5 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-16?atlOrigin=eyJpIjoiMWMyMTZlMmNiZjBjNDc4NjkxMzM0ZWUyYjU4OTQ3NzkiLCJwIjoiaiJ9", 5, 'blue')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 centrar_texto("Sprint 2", 3, 'white')
@@ -130,7 +131,7 @@ with st.container():
 st.text("")
 texto('Prioridad: 3 ', 5, 'white')  
 texto('Fecha estimada de entrega: 06/09/2024', 5, 'white')
-centrar_texto_link("Link a Historia 6 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-17?atlOrigin=eyJpIjoiOGIwZDFlZjgxNWE3NDAwYWI4N2ZmYjQ4ZTc1ZGNmMjUiLCJwIjoiaiJ9", 5, 'blue')
+centrar_texto_link("Link - Historia 6 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-17?atlOrigin=eyJpIjoiOGIwZDFlZjgxNWE3NDAwYWI4N2ZmYjQ4ZTc1ZGNmMjUiLCJwIjoiaiJ9", 5, 'blue')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 7 - Experiencias Recomendadas Basadas en Preferencias ', 4, 'yellow')
@@ -145,7 +146,7 @@ with st.container():
 st.text("")
 texto('Prioridad: 5', 5, 'white')  
 texto('Fecha estimada de entrega: 06/09/2024', 5, 'white')
-centrar_texto_link("Link a Historia 7 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-18?atlOrigin=eyJpIjoiZWE5M2I4MGM3Nzg1NDBiMjk5NWVmNzAxYTYyZGU1NTYiLCJwIjoiaiJ9", 5, 'blue')
+centrar_texto_link("Link - Historia 7 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-18?atlOrigin=eyJpIjoiZWE5M2I4MGM3Nzg1NDBiMjk5NWVmNzAxYTYyZGU1NTYiLCJwIjoiaiJ9", 5, 'blue')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 8 - Integración de Calendario de Experiencias', 4, 'yellow')
@@ -160,7 +161,7 @@ with st.container():
 st.text("")
 texto('Prioridad: 2 ', 5, 'white')  
 texto('Fecha estimada de entrega: 06/09/2024', 5, 'white')
-centrar_texto_link("Link a Historia 8 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-19?atlOrigin=eyJpIjoiNmNjMTMyMzdjZmNlNGQ0Yzg2MTVjZjViZjFkNmEwNmQiLCJwIjoiaiJ9", 5, 'blue')
+centrar_texto_link("Link - Historia 8 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-19?atlOrigin=eyJpIjoiNmNjMTMyMzdjZmNlNGQ0Yzg2MTVjZjViZjFkNmEwNmQiLCJwIjoiaiJ9", 5, 'blue')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 9 - Evaluación de Preferencias de Usuario', 4, 'yellow')
@@ -175,7 +176,7 @@ with st.container():
 st.text("")
 texto('Prioridad: 3', 5, 'white')  
 texto('Fecha estimada de entrega: 06/09/2024', 5, 'white')
-centrar_texto_link("Link a Historia 9 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-20?atlOrigin=eyJpIjoiN2VmZjdjNjgyMWJjNDEwYzhhOGFhN2VlNGU2ODI4NjQiLCJwIjoiaiJ9", 5, 'blue')
+centrar_texto_link("Link - Historia 9 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-20?atlOrigin=eyJpIjoiN2VmZjdjNjgyMWJjNDEwYzhhOGFhN2VlNGU2ODI4NjQiLCJwIjoiaiJ9", 5, 'blue')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 10 - Feedback y Participación del Cliente', 4, 'yellow')
@@ -190,6 +191,6 @@ with st.container():
 st.text("")
 texto('Prioridad: 3', 5, 'white')  
 texto('Fecha estimada de entrega: 06/09/2024', 5, 'white')
-centrar_texto_link("Link a Historia 10 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-21?atlOrigin=eyJpIjoiN2E5ZDM1ZTIwNzIxNDM0NTkyOTRjNjFlZmQyYjVlNGQiLCJwIjoiaiJ9", 5, 'blue')
+centrar_texto_link("Link - Historia 10 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-21?atlOrigin=eyJpIjoiN2E5ZDM1ZTIwNzIxNDM0NTkyOTRjNjFlZmQyYjVlNGQiLCJwIjoiaiJ9", 5, 'blue')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
