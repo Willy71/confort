@@ -29,10 +29,12 @@ centrar_texto("Nueva funcionalidad para app Confort", 2, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
 
 texto("Introducción:", 2, 'white')
-texto('Se le presentó a los usuarios las siguientes tres posibles nuevas funcionalidades para la app de nuestro cliente. ', 4, 'white') 
-texto('Recomendaciones de eventos, atracciones y/o actividades dentro de la zona de reserva. El mismo puede incluir mapas interactivos y recomendaciones de otros usuarios.', 5, 'lightgrey')
-texto('Chat en Tiempo Real: Entre anfitriones y huéspedes.', 5, 'lightgrey')
-texto(' Integración con Servicios de Transporte: Para facilitar el traslado desde y hacia el alojamiento.', 5, 'lightgrey')
+texto('Nuestro cliente tiene una app de reservas de alojamientos temporales tipo AirBnB o Booking. ', 4, 'white') 
+texto('Nos fue encomendada la misión de agregar una nueva funcionalidad según los gustos o preferencias de nuestros usuarios.', 4, 'white') 
+texto('Con lo cual se le presentó a los usuarios las siguientes tres posibles nuevas funcionalidades para la app de nuestro cliente. ', 4, 'white')  
+texto('a. Recomendaciones de eventos, atracciones y/o actividades dentro de la zona de reserva. El mismo puede incluir mapas interactivos y recomendaciones de otros usuarios.', 5, 'lightgrey')
+texto('b. Chat en Tiempo Real: Entre anfitriones y huéspedes.', 5, 'lightgrey')
+texto('c. Integración con Servicios de Transporte: Para facilitar el traslado desde y hacia el alojamiento.', 5, 'lightgrey')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
 
