@@ -49,7 +49,7 @@ st.text("")
 texto('Prioridad: 3', 5, 'white')  
 texto('Fecha estimada de entrega: 23/08/2024', 5, 'white')
 centrar_texto_link("Link a Historia 1 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-12?atlOrigin=eyJpIjoiZDFhOTRlYmJkZmU3NGMxYmI4MjFlNjFiZmQ0NTYzODMiLCJwIjoiaiJ9", 5, 'blue')
-
+centrar_texto_link("Link de Figma - Mapas interactivos", "https://www.figma.com/proto/MMSnWmgHF5TBpEbxJ9iR8a/Confort-for-Silvertech?node-id=2-2&t=woONfDytrchqJA9q-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1", 5, "blue")
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 2 - Filtro de Puntos de Interés ', 4, 'yellow')
 texto('Descripción: Como usuario, quiero filtrar los puntos de interés en el mapa por categorías, para encontrar rápidamente lo que me interesa.', 5, 'white')
