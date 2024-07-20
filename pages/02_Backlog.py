@@ -82,8 +82,7 @@ st.text("")
 texto('Prioridad: 5 ', 5, 'white')  
 texto('Fecha estimada de entrega: 23/08/2024', 5, 'white')
 centrar_texto_link("Link - Historia 3 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-14?atlOrigin=eyJpIjoiZTQxZmJmZjBjYzZlNDU5NGEwY2QwYmQxZDRiOGJlZTMiLCJwIjoiaiJ9", 5, 'blue')
-centrar_texto_link("Link - Figma - Integración con el Sistema de Reservas", "https://www.figma.com/proto/MMSnWmgHF5TBpEbxJ9iR8a/Confort-for-Silvertech?node-id=37-88&t=fSdaAm8TeLdjFZaw-1&scaling=scale-down&content-scaling=fixed&page-id=37%3A87"
-
+centrar_texto_link("Link - Figma - Integración con el Sistema de Reservas", "https://www.figma.com/proto/MMSnWmgHF5TBpEbxJ9iR8a/Confort-for-Silvertech?node-id=37-88&t=fSdaAm8TeLdjFZaw-1&scaling=scale-down&content-scaling=fixed&page-id=37%3A87", 5, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 4 - Sección de Opiniones de Experiencias', 4, 'yellow')
 texto('Descripción: Como usuario, quiero leer opiniones de otras personas sobre las experiencias disponibles, para tomar una decisión informada.', 5, 'white')
