@@ -37,7 +37,6 @@ centrar_texto("Fecha de inicio: 09/08/2024", 6, 'white')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 1 - Personalización de Mapas Interactivos', 4, 'yellow')
-centrar_texto_link("Link a Historia 1 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-12?atlOrigin=eyJpIjoiZDFhOTRlYmJkZmU3NGMxYmI4MjFlNjFiZmQ0NTYzODMiLCJwIjoiaiJ9", 5, 'blue')
 texto('Descripción: Como usuario, quiero poder personalizar los mapas interactivos con mis propios puntos de interés, para adaptar el mapa a mis necesidades. ', 5, 'white')
 st.text("")
 texto('Criterios de Aceptación:', 5, 'white')
@@ -49,6 +48,7 @@ with st.container():
 st.text("")
 texto('Prioridad: 3', 5, 'white')  
 texto('Fecha estimada de entrega: 23/08/2024', 5, 'white')
+centrar_texto_link("Link a Historia 1 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-12?atlOrigin=eyJpIjoiZDFhOTRlYmJkZmU3NGMxYmI4MjFlNjFiZmQ0NTYzODMiLCJwIjoiaiJ9", 5, 'blue')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 texto('Historia 2 - Filtro de Puntos de Interés ', 4, 'yellow')
