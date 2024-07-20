@@ -60,5 +60,11 @@ def photo_link(alt_text, img_url, link_url, img_width):
 centrar_texto("Images de figma", 1, 'white')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
-
+centrar_texto("Imagen para la historia #1", 3, 'white')
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20001.png?raw=true", 400)
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+centrar_texto("Imagen para la historia #6", 3, "white")               
+centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20006.png?raw=true", 400)
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
