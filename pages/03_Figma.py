@@ -77,7 +77,7 @@ centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%2
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 centrar_texto("Imagen para la Historia 5", 3, 'white')
 centrar_texto("Notificaciones de Reservas de Experiencias", 3, 'white')
-centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20005.png?raw=true", 500)
+centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20005.png?raw=true", 400)
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 centrar_texto("Imagen para la historia 6", 3, "white")
