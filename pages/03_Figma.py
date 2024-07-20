@@ -61,4 +61,4 @@ centrar_texto("Images de figma", 1, 'white')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 
-centrar_imagen("https://www.figma.com/proto/MMSnWmgHF5TBpEbxJ9iR8a/Confort-for-Silvertech?node-id=2-2&t=woONfDytrchqJA9q-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1", 400)
+centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20001.png?raw=true", 400)
