@@ -33,9 +33,9 @@ texto('Nuestro cliente tiene una app de reservas de alojamientos temporales tipo
 texto('Nos fue encomendada la misión de agregar una nueva funcionalidad según los gustos o preferencias de nuestros usuarios.', 4, 'white') 
 texto('Con lo cual se le presentó a los usuarios las siguientes tres posibles nuevas funcionalidades para la app de nuestro cliente. ', 4, 'white')  
 st.text("")
-texto('a. Recomendaciones de eventos, atracciones y/o actividades dentro de la zona de reserva. El mismo puede incluir mapas interactivos y recomendaciones de otros usuarios.', 5, 'lightgrey')
-texto('b. Chat en Tiempo Real: Entre anfitriones y huéspedes.', 5, 'lightgrey')
-texto('c. Integración con Servicios de Transporte: Para facilitar el traslado desde y hacia el alojamiento.', 5, 'lightgrey')
+texto('a. Recomendaciones de eventos, atracciones y/o actividades dentro de la zona de reserva. El mismo puede incluir mapas interactivos y recomendaciones de otros usuarios.', 5, 'lightblue')
+texto('b. Chat en Tiempo Real: Entre anfitriones y huéspedes.', 5, 'lightblue')
+texto('c. Integración con Servicios de Transporte: Para facilitar el traslado desde y hacia el alojamiento.', 5, 'lightblue')
 st.text("")
 texto('La funcionalidad elegida, fue la “a”, para recomendaciones de eventos y/o actividades en la zona de la reserva de alojamiento temporario. Esta nueva funcionalidad será denominada “Experiencias” y se podrá acceder a través de mapas interactivos, por filtros de categorías, por recomendaciones de usuario y por sugerencias de un algoritmo en base a las preferencias que el usuario haya elegido previamente.', 4, 'white') 
 
