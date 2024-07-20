@@ -90,3 +90,8 @@ centrar_texto("Implementación de Mapas Interactivos", 3, "white")
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20006.png?raw=true", 500)
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+centrar_texto("Imagen para la historia 7", 3, "white")
+centrar_texto("Experiencias Recomendadas Basadas en Preferencias", 3, "white")  
+centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20007.png?raw=true", 500)
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
