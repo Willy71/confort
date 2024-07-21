@@ -43,15 +43,16 @@ def centrar_imagen_link(imagen, link, nombre, ancho):
         unsafe_allow_html=True
     )
 
+
 def photo_link(alt_text, img_url, link_url, img_width):
-    html_code = f'''
+    markdown_code = f'''
     <div style="text-align: center;">
-        <a href="{link_url}" onclick="window.location.href='{link_url}'; return false;">
+        <a href="{link_url}" target="_self">
             <img src="{img_url}" alt="{alt_text}" width="{img_width}px">
         </a>
     </div>
     '''
-    st.components.v1.html(html_code, height=400)
+    st.markdown(markdown_code, unsafe_allow_html=True)
 
 centrar_texto("Encuesta para Relevamiento de Información", 1, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
@@ -152,7 +153,7 @@ texto('f. Mayor de 65 años', 5, 'lightblue')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
 
 
-st.markdown('<a href="https://confort.streamlit.app/Backlog" target="_self">Next page</a>', unsafe_allow_html=True)
+#st.markdown('<a href="https://confort.streamlit.app/Backlog" target="_self">Next page</a>', unsafe_allow_html=True)
                
 with st.container():
     col01, col02, col03 = st.columns([1, 4, 1])
