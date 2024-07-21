@@ -46,7 +46,7 @@ def centrar_imagen_link(imagen, link, nombre, ancho):
 def photo_link(alt_text, img_url, link_url, img_width):
     markdown_code = f'''
     <div style="text-align: center;">
-        <a href="{link_url}" target="_blank">
+        <a href="{link_url}">
             <img src="{img_url}" alt="{alt_text}" width="{img_width}px">
         </a>
     </div>
