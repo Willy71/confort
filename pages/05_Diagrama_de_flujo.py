@@ -54,6 +54,8 @@ centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/012.png?ra
 
 texto("Los cuadrantes de color violeta son mas relevantes para el usuario final. Los dos cuadrantes de color verde oscuro son mas relevantes para los administradores de la aplicacón", 6, 'yellow')
 
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#a2129f;" /> """, unsafe_allow_html=True)
+
 with st.container():
     col01, col02, col03 = st.columns(3)
     with col01:
