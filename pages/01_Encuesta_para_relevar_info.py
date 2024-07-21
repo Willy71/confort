@@ -172,9 +172,12 @@ with st.container():
     with col03:
         photo_link_right("", "https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Siguiente.png?raw=true","https://confort.streamlit.app/Backlog", 80)
 
-from streamlit_extras.switch_page_button import switch_page
-
-switch_page("New page name")
+if st.button("Home"):
+    st.switch_page("Home.py")
+if st.button("Page 1"):
+    st.switch_page("pages/01_Encuesta_para_relevar_info.py")
+if st.button("Page 2"):
+    st.switch_page("pages/02_backlog")
 
 
 
