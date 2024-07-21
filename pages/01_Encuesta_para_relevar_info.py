@@ -172,7 +172,7 @@ with st.container():
             st.switch_page("Home.py")
     with col03:
         if st.button("Siguiente"):
-            st.switch_page("pages/01_Encuesta_para_relevar_info.py")
+            st.switch_page("pages/02_backlog.py")
 
 
 
