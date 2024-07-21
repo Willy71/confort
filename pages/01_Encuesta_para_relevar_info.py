@@ -52,7 +52,7 @@ def photo_link_left(alt_text, img_url, link_url, img_width):
         </a>
     </div>
     '''
-    st.components.v1.html(markdown_code, height=400)
+    st.markdown(markdown_code, unsafe_allow_html=True)
 
 def photo_link_right(alt_text, img_url, link_url, img_width):
     markdown_code = f'''
@@ -62,7 +62,7 @@ def photo_link_right(alt_text, img_url, link_url, img_width):
         </a>
     </div>
     '''
-    st.components.v1.html(markdown_code, height=400)
+    st.markdown(markdown_code, unsafe_allow_html=True)
 
 centrar_texto("Encuesta para Relevamiento de Información", 1, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
