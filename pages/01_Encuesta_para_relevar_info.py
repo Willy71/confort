@@ -47,7 +47,7 @@ def centrar_imagen_link(imagen, link, nombre, ancho):
 def photo_link_left(alt_text, img_url, link_url, img_width):
     markdown_code = f'''
     <div style="text-align: left;">
-        <a href="{link_url}" target="_self">
+        <a href="{link_url}" onclick="window.location.href='{link_url}'; window.history.pushState(null, null, '{link_url}'); return false;">
             <img src="{img_url}" alt="{alt_text}" width="{img_width}px">
         </a>
     </div>
@@ -57,7 +57,7 @@ def photo_link_left(alt_text, img_url, link_url, img_width):
 def photo_link_right(alt_text, img_url, link_url, img_width):
     markdown_code = f'''
     <div style="text-align: right;">
-        <a href="{link_url}" target="_self">
+        <a href="{link_url}" onclick="window.location.href='{link_url}'; window.history.pushState(null, null, '{link_url}'); return false;">
             <img src="{img_url}" alt="{alt_text}" width="{img_width}px">
         </a>
     </div>
