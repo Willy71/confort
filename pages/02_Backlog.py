@@ -201,3 +201,12 @@ texto('Fecha estimada de entrega: 06/09/2024', 5, 'white')
 centrar_texto_link("Link - Historia 10 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-21?atlOrigin=eyJpIjoiN2E5ZDM1ZTIwNzIxNDM0NTkyOTRjNjFlZmQyYjVlNGQiLCJwIjoiaiJ9", 5, 'blue')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
+
+with st.container():
+    col01, col02, col03 = st.columns(3)
+    with col01:
+        if st.button("Anterior"):
+            st.switch_page("pages/01_Encuesta_para_relevar_info")
+    with col03:
+        if st.button("Siguiente"):
+            st.switch_page("pages/03_Figma.py")
