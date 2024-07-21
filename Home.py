@@ -10,7 +10,7 @@ st.set_page_config(
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://raw.githubusercontent.com/Willy71/background/main/picture/pxfuel%20(1).jpg");
+background-image: url("https://github.com/Willy71/confort/blob/main/pictures/background.png?raw=true");
 background-size: 180%;
 background-position: top left;
 background-repeat: repeat;
