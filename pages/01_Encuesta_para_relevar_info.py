@@ -120,4 +120,10 @@ texto('d. de 46 a 55 años', 5, 'lightblue')
 texto('e. de 56 a 65 años', 5, 'lightblue')
 texto('f. Mayor de 65 años', 5, 'lightblue')
 
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
+
+#centrar_imagen_link("https://confort.streamlit.app/", 50)
+
+#https://confort.streamlit.app/Backlog
+
 
