@@ -44,9 +44,19 @@ def centrar_imagen_link(imagen, link, nombre, ancho):
     )
 
 
-def photo_link(alt_text, img_url, link_url, img_width):
+def photo_link_left(alt_text, img_url, link_url, img_width):
     markdown_code = f'''
-    <div style="text-align: center;">
+    <div style="text-align: left;">
+        <a href="{link_url}" target="_self">
+            <img src="{img_url}" alt="{alt_text}" width="{img_width}px">
+        </a>
+    </div>
+    '''
+    st.markdown(markdown_code, unsafe_allow_html=True)
+
+def photo_link_right(alt_text, img_url, link_url, img_width):
+    markdown_code = f'''
+    <div style="text-align: right;">
         <a href="{link_url}" target="_self">
             <img src="{img_url}" alt="{alt_text}" width="{img_width}px">
         </a>
@@ -156,11 +166,11 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1
 #st.markdown('<a href="https://confort.streamlit.app/Backlog" target="_self">Next page</a>', unsafe_allow_html=True)
                
 with st.container():
-    col01, col02, col03, col04, col05, col06, col07, col08 = st.columns(8)
+    col01, col02, col03 = st.columns(3)
     with col01:
-        photo_link("", "https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Atras.png?raw=true","https://confort.streamlit.app/", 80)
-    with col08:
-        photo_link("", "https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Siguiente.png?raw=true","https://confort.streamlit.app/Backlog", 80)
+        photo_link_left("", "https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Atras.png?raw=true","https://confort.streamlit.app/", 80)
+    with col03:
+        photo_link_right("", "https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Siguiente.png?raw=true","https://confort.streamlit.app/Backlog", 80)
 
 
 
