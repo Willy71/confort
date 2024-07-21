@@ -28,6 +28,15 @@ right: 2rem;
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
+if 'rerun' not in st.session_state:
+    st.session_state.rerun = False
+
+if st.button("Reiniciar"):
+    st.session_state.rerun = True
+
+if st.session_state.rerun:
+    st.experimental_rerun()
+
 def centrar_imagen(imagen, ancho):
     # Aplicar estilo CSS para centrar la imagen con Markdown
     st.markdown(
@@ -65,15 +74,6 @@ centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/titular3.p
     
 #centrar_texto("Nueva funcionalidad para app Confort", 1, "white")
 
-if 'rerun' not in st.session_state:
-    st.session_state.rerun = False
-
-if st.button("Reiniciar"):
-    st.session_state.rerun = True
-
-if st.session_state.rerun:
-    st.experimental_rerun()
-
 with st.container():
     col01, col02, col03 = st.columns(3)
     with col02:
@@ -82,4 +82,3 @@ with st.container():
         st.header("")
         st.header("")
         photo_link_right("", "https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Siguiente.png?raw=true","https://confort.streamlit.app/Encuesta_para_relevar_info", 80)
-
