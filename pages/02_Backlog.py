@@ -184,7 +184,7 @@ with st.container():
         texto('- Los datos recopilados deben ser almacenados y utilizados para mejorar las recomendaciones.', 5, 'lightgrey')
 st.text("")
 texto('Prioridad: 5', 5, 'white')  
-texto('Fecha estimada de entrega: 06/09/2024', 5, 'white')
+texto('Fecha estimada de entrega: 13/09/2024', 5, 'white')
 centrar_texto_link("Link - Historia 9 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-20?atlOrigin=eyJpIjoiN2VmZjdjNjgyMWJjNDEwYzhhOGFhN2VlNGU2ODI4NjQiLCJwIjoiaiJ9", 5, 'blue')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
