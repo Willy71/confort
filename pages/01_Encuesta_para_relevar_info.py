@@ -44,14 +44,14 @@ def centrar_imagen_link(imagen, link, nombre, ancho):
     )
 
 def photo_link(alt_text, img_url, link_url, img_width):
-    markdown_code = f'''
+    html_code = f'''
     <div style="text-align: center;">
-        <a href="{link_url}">
+        <a href="{link_url}" onclick="window.location.href='{link_url}'; return false;">
             <img src="{img_url}" alt="{alt_text}" width="{img_width}px">
         </a>
     </div>
     '''
-    st.markdown(markdown_code, unsafe_allow_html=True)
+    st.components.v1.html(html_code, height=400)
 
 centrar_texto("Encuesta para Relevamiento de Información", 1, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
