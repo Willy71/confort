@@ -137,3 +137,9 @@ with st.container():
         photo_link('', "https://i.postimg.cc/9Q3yg2th/python.png", 'https://www.python.org', 120)
             
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+
+with st.container():
+    col01, col02, col03 = st.columns(3)
+    with col01:
+        if st.button("Anterior", use_container_width=True):
+            st.switch_page("pages/06_Video.py")
