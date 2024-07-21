@@ -156,7 +156,7 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1
 #st.markdown('<a href="https://confort.streamlit.app/Backlog" target="_self">Next page</a>', unsafe_allow_html=True)
                
 with st.container():
-    col01, col02, col03 = st.columns([1, 4, 1])
+    col01, col02, col03 = st.columns([1, 7, 1])
     with col01:
         photo_link("", "https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Atras.png?raw=true","https://confort.streamlit.app/", 80)
     with col02:
