@@ -61,6 +61,8 @@ def photo_link_center(alt_text, img_url, link_url, img_width):
     '''
     st.markdown(markdown_code, unsafe_allow_html=True)
 
+st.write("#")
+
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/titular3.png?raw=true", 600)
 
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/confort_remove.png?raw=true", 300)
