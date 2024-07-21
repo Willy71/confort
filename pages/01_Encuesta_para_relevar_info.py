@@ -168,16 +168,11 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1
 with st.container():
     col01, col02, col03 = st.columns(3)
     with col01:
-        photo_link_left("", "https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Atras.png?raw=true","https://confort.streamlit.app/", 80)
+        if st.button("Anterior"):
+            st.switch_page("Home.py")
     with col03:
-        photo_link_right("", "https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Siguiente.png?raw=true","https://confort.streamlit.app/Backlog", 80)
-
-if st.button("Home"):
-    st.switch_page(st.Page("Home.py" , title="Home sweet home"))
-if st.button("Page 1"):
-    st.switch_page("pages/01_Encuesta_para_relevar_info.py")
-if st.button("Page 2"):
-    st.switch_page("pages/02_backlog")
+        if st.button("Siguiente"):
+            st.switch_page("pages/01_Encuesta_para_relevar_info.py")
 
 
 
