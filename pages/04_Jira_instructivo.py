@@ -101,6 +101,8 @@ centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/jira_015.p
 st.subheader("")
 centrar_texto("Buena suerte y buen trabajo!!!!", 3, 'white')
 
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ef5626;" /> """, unsafe_allow_html=True)
+
 with st.container():
     col01, col02, col03 = st.columns(3)
     with col01:
