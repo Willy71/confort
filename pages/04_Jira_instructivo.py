@@ -100,3 +100,12 @@ centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/jira_015.p
 
 st.subheader("")
 centrar_texto("Buena suerte y buen trabajo!!!!", 3, 'white')
+
+with st.container():
+    col01, col02, col03 = st.columns(3)
+    with col01:
+        if st.button("Anterior", use_container_width=True):
+            st.switch_page("pages/03_Figma.py")
+    with col03:
+        if st.button("Siguiente", use_container_width=True):
+            st.switch_page("pages/05_Diagrama_de_flujo.py")
