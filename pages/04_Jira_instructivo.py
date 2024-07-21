@@ -112,4 +112,4 @@ with st.container():
             st.switch_page("pages/03_Figma.py")
     with col03:
         if st.button("Siguiente", use_container_width=True):
-            st.switch_page("pages/05_Diagrama_de_flujo.py")
+            st.switch_page("pages/05_Diagramas_de_flujo.py")
