@@ -72,5 +72,6 @@ with st.container():
     with col03:
         st.header("")
         st.header("")
+        st.rerun()
         photo_link_right("", "https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Siguiente.png?raw=true","https://confort.streamlit.app/Encuesta_para_relevar_info", 80)
 
