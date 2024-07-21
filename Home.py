@@ -71,6 +71,7 @@ with st.container():
         centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/confort_remove.png?raw=true", 300)
     with col03:
         st.header("")
+        st.header("")
         photo_link_right("", "https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Siguiente.png?raw=true","https://confort.streamlit.app/Encuesta_para_relevar_info", 80)
 
 
