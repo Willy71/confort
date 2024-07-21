@@ -59,44 +59,44 @@ def photo_link(alt_text, img_url, link_url, img_width):
 
 centrar_texto("Images de figma", 1, 'white')
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ffb754;" /> """, unsafe_allow_html=True)
 centrar_texto("Imagen para la Historia 1", 3, 'white')
 centrar_texto("Personalización de Mapas Interactivos", 3, 'white')
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20001.png?raw=true", 400)
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ffb754;" /> """, unsafe_allow_html=True)
 centrar_texto("Imagen para la Historia 2", 3, 'white')
 centrar_texto("Filtro de Puntos de Interés", 3, 'white')
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20002.png?raw=true", 400)
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ffb754;" /> """, unsafe_allow_html=True)
 centrar_texto("Imagen para la Historia 3", 3, 'white')
 centrar_texto("Integración con el Sistema de Reservas", 3, 'white')
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20003.png?raw=true", 500)
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ffb754;" /> """, unsafe_allow_html=True)
 centrar_texto("Imagen para la Historia 4", 3, 'white')
 centrar_texto("Sección de Opiniones de Experiencias", 3, 'white')
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20004.png?raw=true", 500)
                
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ffb754;" /> """, unsafe_allow_html=True)
 centrar_texto("Imagen para la Historia 5", 3, 'white')
 centrar_texto("Notificaciones de Reservas de Experiencias", 3, 'white')
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20005.png?raw=true", 400)
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ffb754;" /> """, unsafe_allow_html=True)
 centrar_texto("Imagen para la historia 6", 3, "white")
 centrar_texto("Implementación de Mapas Interactivos", 3, "white")  
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20006.png?raw=true", 500)
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ffb754;" /> """, unsafe_allow_html=True)
 centrar_texto("Imagen para la historia 7", 3, "white")
 centrar_texto("Experiencias Recomendadas Basadas en Preferencias", 3, "white")  
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20007.png?raw=true", 500)
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ffb754;" /> """, unsafe_allow_html=True)
 centrar_texto("Imagen para la historia 8", 3, "white")
 centrar_texto("Integración de Calendario de Experienciass", 3, "white")  
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20008.png?raw=true", 500)
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ffb754;" /> """, unsafe_allow_html=True)
