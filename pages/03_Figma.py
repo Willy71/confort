@@ -100,3 +100,12 @@ centrar_texto("Integración de Calendario de Experienciass", 3, "white")
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20008.png?raw=true", 500)
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ffb754;" /> """, unsafe_allow_html=True)
+
+with st.container():
+    col01, col02, col03 = st.columns(3)
+    with col01:
+        if st.button("Anterior", use_container_width=True):
+            st.switch_page("pages/02_Backlog.py")
+    with col03:
+        if st.button("Siguiente", use_container_width=True):
+            st.switch_page("pages/04_Jira_instructivo.py")
