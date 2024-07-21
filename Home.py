@@ -63,11 +63,10 @@ def photo_link_center(alt_text, img_url, link_url, img_width):
 
 st.write("#")
 
-centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/titular3.png?raw=true", 600)
+centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/titular3.png?raw=true", 450)
 
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/001.png?raw=true", 300)
 #https://github.com/Willy71/confort/blob/main/pictures/confort_remove.png?raw=true
-
 
 with st.container():
     col01, col02, col03 = st.columns(3)
