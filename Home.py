@@ -28,15 +28,6 @@ right: 2rem;
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-if 'rerun' not in st.session_state:
-    st.session_state.rerun = False
-
-if st.button("Reiniciar"):
-    st.session_state.rerun = True
-
-if st.session_state.rerun:
-    st.experimental_rerun()
-
 def centrar_imagen(imagen, ancho):
     # Aplicar estilo CSS para centrar la imagen con Markdown
     st.markdown(
