@@ -43,6 +43,16 @@ def centrar_imagen_link(imagen, link, nombre, ancho):
         unsafe_allow_html=True
     )
 
+def photo_link(alt_text, img_url, link_url, img_width):
+    markdown_code = f'''
+    <div style="text-align: center;">
+        <a href="{link_url}" target="_blank">
+            <img src="{img_url}" alt="{alt_text}" width="{img_width}px">
+        </a>
+    </div>
+    '''
+    st.markdown(markdown_code, unsafe_allow_html=True)
+
 centrar_texto("Encuesta para Relevamiento de Información", 1, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
 centrar_texto("Nueva funcionalidad para app Confort", 2, 'white')  
@@ -144,9 +154,9 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1
 with st.container():
     col01, col02, col03 = st.columns([1, 4, 1])
     with col01:
-        centrar_imagen_link("https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Atras.png?raw=true","https://confort.streamlit.app/", "", 80)
+        photo_link("", "https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Atras.png?raw=true","https://confort.streamlit.app/", 80)
     with col02:
-        centrar_imagen_link("https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Siguiente.png?raw=true","https://confort.streamlit.app/Backlog", "", 80)
+        photo_link("", "https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Siguiente.png?raw=true","https://confort.streamlit.app/Backlog", 80)
 
 
 
