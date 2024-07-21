@@ -64,6 +64,8 @@ def photo_link_right(alt_text, img_url, link_url, img_width):
     '''
     st.markdown(markdown_code, unsafe_allow_html=True)
 
+st.write("#")
+
 centrar_texto("Encuesta para Relevamiento de Información", 1, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
 centrar_texto("Nueva funcionalidad para app Confort", 2, 'white')  
