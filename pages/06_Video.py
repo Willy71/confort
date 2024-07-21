@@ -33,3 +33,14 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1
 
 VIDEO_URL = "https://youtu.be/FkA7hM8rkck?si=gPtdfbA7CKgGx_Ly"
 st.video(VIDEO_URL)
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1717dc;" /> """, unsafe_allow_html=True)
+
+with st.container():
+    col01, col02, col03 = st.columns(3)
+    with col01:
+        if st.button("Anterior", use_container_width=True):
+            st.switch_page("pages/05_Diagrama_de_flujo.py")
+    with col03:
+        if st.button("Siguiente", use_container_width=True):
+            st.switch_page("pages/07_Creditos.py")
