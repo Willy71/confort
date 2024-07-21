@@ -10,9 +10,6 @@ st.set_page_config(
 if 'rerun' not in st.session_state:
     st.session_state.rerun = False
 
-if st.button("Reiniciar"):
-    st.session_state.rerun = True
-
 if st.session_state.rerun:
     st.experimental_rerun()
 
