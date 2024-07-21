@@ -45,4 +45,4 @@ centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/titular3.p
     
 #centrar_texto("Nueva funcionalidad para app Confort", 1, "white")
 
-centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/confort_remove.png?raw=true", 400)
+centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/confort_remove.png?raw=true", 300)
