@@ -141,8 +141,15 @@ texto('f. Mayor de 65 años', 5, 'lightblue')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
 
-centrar_imagen_link("https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Atras.png?raw=true","https://confort.streamlit.app/", "", 80)
-centrar_imagen_link("https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Siguiente.png?raw=true","https://confort.streamlit.app/Backlog", "", 80)
+with st.container():
+    col01, col02, col03 = st.columns([1, 4, 1])
+    with col01:
+        centrar_imagen_link("https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Atras.png?raw=true","https://confort.streamlit.app/", "", 80)
+    with col02:
+        centrar_imagen_link("https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Siguiente.png?raw=true","https://confort.streamlit.app/Backlog", "", 80)
+
+
+
 
 
 
