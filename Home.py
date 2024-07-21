@@ -41,7 +41,7 @@ def centrar_texto(texto, tamanho, color):
     st.markdown(f"<h{tamanho} style='text-align: center; color: {color}'>{texto}</h{tamanho}>",
             unsafe_allow_html=True)
 
-centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/titular3.png?raw=true", 1200)
+centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/titular3.png?raw=true", 900)
     
 #centrar_texto("Nueva funcionalidad para app Confort", 1, "white")
 
