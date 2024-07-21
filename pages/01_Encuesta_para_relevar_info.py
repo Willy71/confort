@@ -168,10 +168,10 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1
 with st.container():
     col01, col02, col03 = st.columns(3)
     with col01:
-        if st.button("Anterior"):
+        if st.button("Anterior", use_container_width=True):
             st.switch_page("Home.py")
     with col03:
-        if st.button("Siguiente"):
+        if st.button("Siguiente", use_container_width=True):
             st.switch_page("pages/02_Backlog.py")
 
 
