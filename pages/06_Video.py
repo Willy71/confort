@@ -42,7 +42,7 @@ with st.container():
     col01, col02, col03 = st.columns(3)
     with col01:
         if st.button("Anterior", use_container_width=True):
-            st.switch_page("pages/05_Diagrama_de_flujo.py")
+            st.switch_page("pages/05_Diagramas_de_flujo.py")
     with col03:
         if st.button("Siguiente", use_container_width=True):
             st.switch_page("pages/07_Creditos.py")
