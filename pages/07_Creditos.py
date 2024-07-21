@@ -62,7 +62,6 @@ centrar_texto("por", 1, 'white')
 centrar_texto("Guillermo Cerato", 1, 'white')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
-
 centrar_texto("Curso realizado por Silvertech", 2, 'white')
 photo_link("Silvertech", "https://github.com/Willy71/confort/blob/main/pictures/Silvertech.png?raw=true", "https://www.soysilvertech.org/comunidad", 200)
 
@@ -91,7 +90,6 @@ with st.container():
         photo_link("Bid Lab", "https://github.com/Willy71/confort/blob/main/pictures/bid%20lab.png?raw=true", "https://bidlab.org/es", 130)
        
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
-
 centrar_texto("Mis redes sociales", 2, 'white')
 with st.container():    
     col41, col42, col43 = st.columns(3)
@@ -116,19 +114,20 @@ with st.container():
         centrar_imagen("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png", 80)
         centrar_texto_link("Whatsapp", "https://wa.me/5542991657847", 6, 'white')
 
-
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 centrar_texto_link("Mi portfolio", "https://guillermocerato.streamlit.app", 2, "blue")
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+centrar_texto_link("Link del repositorio de Github de esta presentación", "https://github.com/Willy71/confort/tree/main", 2, 'blue')
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 with st.container():
     col51, col52, col53, col54 = st.columns([4,0.5,1,0.5])
     with col51:
         centrar_texto("Website made with Streamlit framework", 2, 'white')   
     with col53:            
         photo_link('', "https://i.postimg.cc/cJhYJnqx/streamlit-logo.jpg", 'https://streamlit.io/', 120)
-        
-        
+               
 with st.container():
     col55, col56, col57, col58 = st.columns([4,0.5,1,0.5])
     with col55:
@@ -136,11 +135,5 @@ with st.container():
         centrar_texto("Programmed with Python for Guillermo Cerato", 2, 'blue')
     with col57:
         photo_link('', "https://i.postimg.cc/9Q3yg2th/python.png", 'https://www.python.org', 120)
-        
-        
-
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
-
-centrar_texto_link("Link del repositorio de Github de esta presentación", "https://github.com/Willy71/confort/tree/main", 2, 'blue')
             
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
