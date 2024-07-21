@@ -69,7 +69,7 @@ with st.container():
     col01, col02, col03 = st.columns(3)
     with col03:
         if st.button("Siguiente"):
-            st.switch_page("pages/01_Encuesta_para_relevar_info")
+            st.switch_page("pages/01_Encuesta_para_relevar_info.py")
 
 
 
