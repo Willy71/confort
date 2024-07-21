@@ -57,6 +57,8 @@ def photo_link(alt_text, img_url, link_url, img_width):
     '''
     st.markdown(markdown_code, unsafe_allow_html=True)
 
+st.write("#")
+
 centrar_texto("Images de figma", 1, 'white')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ffb754;" /> """, unsafe_allow_html=True)
