@@ -69,9 +69,10 @@ with st.container():
     col01, col02, col03 = st.columns(3)
     with col02:
         centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/confort_remove.png?raw=true", 300)
+        st.autorefresh()
     with col03:
         st.header("")
         st.header("")
         photo_link_right("", "https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Siguiente.png?raw=true","https://confort.streamlit.app/Encuesta_para_relevar_info", 80)
-
+        st.autorefresh()
 
