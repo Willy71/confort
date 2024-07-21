@@ -51,3 +51,12 @@ st.subheader("")
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/012.png?raw=true", 1200)
 
 texto("Los cuadrantes de color violeta son mas relevantes para el usuario final. Los dos cuadrantes de color verde oscuro son mas relevantes para los administradores de la aplicacón", 6, 'yellow')
+
+with st.container():
+    col01, col02, col03 = st.columns(3)
+    with col01:
+        if st.button("Anterior", use_container_width=True):
+            st.switch_page("pages/04_Jira_instructivo.py")
+    with col03:
+        if st.button("Siguiente", use_container_width=True):
+            st.switch_page("pages/06_Video.py")
