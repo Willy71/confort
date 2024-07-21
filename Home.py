@@ -51,10 +51,25 @@ def photo_link_right(alt_text, img_url, link_url, img_width):
     '''
     st.markdown(markdown_code, unsafe_allow_html=True)
 
+def photo_link_center(alt_text, img_url, link_url, img_width):
+    markdown_code = f'''
+    <div style="text-align: center;">
+        <a href="{link_url}" target="_self">
+            <img src="{img_url}" alt="{alt_text}" width="{img_width}px">
+        </a>
+    </div>
+    '''
+    st.markdown(markdown_code, unsafe_allow_html=True)
+
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/titular3.png?raw=true", 600)
     
 #centrar_texto("Nueva funcionalidad para app Confort", 1, "white")
 
-centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/confort_remove.png?raw=true", 300)
+with st.container():
+    col01, col02, col03 = st.columns(3)
+    with col02:
+        centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/confort_remove.png?raw=true", 300)
+    with col03:
+        photo_link_right("", "https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Siguiente.png?raw=true","https://confort.streamlit.app/Encuesta_para_relevar_info", 80)
 
-photo_link_right("", "https://github.com/Willy71/confort/blob/main/pictures/Button%20-%20Siguiente.png?raw=true","https://confort.streamlit.app/Encuesta_para_relevar_info", 80)
+
