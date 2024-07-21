@@ -66,7 +66,7 @@ centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/titular3.p
 with st.container():
     col01, col02, col03 = st.columns(3)
     with col01:
-        centrar_imagen("", 300)
+        centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/confort_remove.png?raw=true", 300)
     with col03:
         if st.button("Siguiente"):
             st.switch_page("pages/01_Encuesta_para_relevar_info")
