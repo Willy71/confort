@@ -3,7 +3,7 @@ import streamlit as st
 # Colocar nome na pagina, icone e ampliar a tela
 st.set_page_config(
     page_title="Encuesta",
-    page_icon="🪬",
+    page_icon="❓",
     layout="wide"
 )
 
