@@ -27,6 +27,10 @@ def texto(texto, tamanho, color):
 def centrar_texto_link(link_texto, link_url, tamanho, color):
     texto_html = f"<h{tamanho} style='text-align: center; color: {color}'><a href='{link_url}' style='text-decoration: none;' target='_blank'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{link_texto}</a></h{tamanho}>"
     st.markdown(texto_html, unsafe_allow_html=True)
+
+def left_texto_link(link_texto, link_url, tamanho, color):
+    texto_html = f"<h{tamanho} style='text-align: left; color: {color}'><a href='{link_url}' style='text-decoration: none;' target='_blank'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{link_texto}</a></h{tamanho}>"
+    st.markdown(texto_html, unsafe_allow_html=True)
     
 def centrar_imagen_link(imagen, link, nombre, ancho):
     st.markdown(
@@ -125,16 +129,16 @@ centrar_texto_link("Link del repositorio de Github de esta presentación", "http
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 
 centrar_texto("Herramientas utilizadas.", 1, 'white' )
-texto("Google Docs", 3, "white")
-texto("Jira", 3, "white")
-texto("Figma", 3, "white")
-texto("Miro", 3, "white")
-texto("Visual Sudio Code", 3, "white")
-texto("Github", 3, "white")
-texto("Streamlit", 3, "white")   
-texto("Canva", 3, "white")
-texto("OBS", 3, "white")
-texto("Cap Cut", 3, "white") 
+left_texto_link("Google Docs", "https://docs.google.com/document/u/0/",  3, "white")
+left_texto_link("Jira", "https://www.atlassian.com/software/jira",  3, "white")
+left_texto_link("Figma", "https://www.figma.com/es-la/",  3, "white")
+left_texto_link("Miro", "https://miro.com/app/dashboard/", 3, "white")
+left_texto_link("Visual Sudio Code", "https://code.visualstudio.com/", 3, "white")
+left_texto_link("Github", "https://github.com/", 3, "white")
+left_texto_link("Streamlit", "https://docs.streamlit.io/", 3, "white")   
+left_texto_link("Canva", "https://www.canva.com/", 3, "white")
+left_texto_link("OBS", "https://obsproject.com/", 3, "white")
+left_texto_link("Cap Cut", "https://obsproject.com/", 3, "white") 
                
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 with st.container():
