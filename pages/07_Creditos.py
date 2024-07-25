@@ -131,14 +131,14 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e
 centrar_texto("Herramientas utilizadas.", 1, 'white' )
 
 with st.container():
-    col60, col61 = st.columns(2)
-    with col60:
+    col60, col61, col62, col63, col64 = st.columns([2,3,1,3,2])
+    with col61:
         left_texto_link("Google Docs", "https://docs.google.com/document/u/0/",  3, "white")
         left_texto_link("Jira", "https://www.atlassian.com/software/jira",  3, "white")
         left_texto_link("Figma", "https://www.figma.com/es-la/",  3, "white")
         left_texto_link("Miro", "https://miro.com/app/dashboard/", 3, "white")
         left_texto_link("Visual Sudio Code", "https://code.visualstudio.com/", 3, "white")
-    with col61:
+    with col63:
         left_texto_link("Github", "https://github.com/", 3, "white")
         left_texto_link("Streamlit", "https://docs.streamlit.io/", 3, "white")   
         left_texto_link("Canva", "https://www.canva.com/", 3, "white")
