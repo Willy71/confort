@@ -123,6 +123,20 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e
 centrar_texto_link("Link del repositorio de Github de esta presentación", "https://github.com/Willy71/confort/tree/main", 2, 'blue')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+
+centrar_texto("Herramientas utilizadas.", 1, 'white' )
+texto("Google Docs", 3, "white")
+texto("Jira", 3, "white")
+texto("Figma", 3, "white")
+texto("Miro", 3, "white")
+texto("Visual Sudio Code", 3, "white")
+texto("Github", 3, "white")
+texto("Streamlit", 3, "white")   
+texto("Canva", 3, "white")
+texto("OBS", 3, "white")
+texto("Cap Cut", 3, "white") 
+               
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 with st.container():
     col51, col52, col53, col54 = st.columns([4,0.5,1,0.5])
     with col51:
