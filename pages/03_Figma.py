@@ -103,6 +103,12 @@ centrar_texto("Integración de Calendario de Experienciass", 3, "white")
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20008.png?raw=true", 500)
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ffb754;" /> """, unsafe_allow_html=True)
+centrar_texto("Imagen para la historia 10", 3, "white")
+centrar_texto("Sistema de Recompensas por Reservas", 3, "white")  
+centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Historia%20010.png?raw=true", 500)
+
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ffb754;" /> """, unsafe_allow_html=True)
 
 with st.container():
     col01, col02, col03 = st.columns(3)
