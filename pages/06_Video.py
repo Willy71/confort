@@ -37,7 +37,7 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1
 video_url = 'https://youtu.be/uUjNcp778eU'
 
 # URL de la miniatura de YouTube (asegúrate de que tenga las dimensiones correctas)
-#thumbnail_url = 'https://path_to_your_thumbnail_image.jpg'
+#thumbnail_url = ''
 
 # HTML y CSS para ajustar la imagen
 #thumbnail_html = f"""
