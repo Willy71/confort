@@ -84,81 +84,99 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1
 texto('1. ¿Qué tan satisfecho estás con las funcionalidades actuales de nuestra app?', 4, 'white') 
 texto('a. Muy satisfecho.', 5, 'lightblue')
 texto('b. Satisfecho', 5, 'lightblue')
-texto('c. Convenciones', 5, 'lightblue')
-texto('d. Otro (por favor, especifique)', 5, 'lightblue')
-
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
-
-texto('2. ¿La pantalla de ingreso a esta nueva funcionalidad le resultó intuitiva y fácil de usar?', 4, 'white') 
-texto('a. Si', 5, 'lightblue')
-texto('b. No', 5, 'lightblue')
-texto('c .Comentarios:', 5, 'lightblue')
-
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
-
-texto('3. ¿Pudo encontrar fácilmente los puntos de interés cercanos a su alojamiento en el mapa interactivo?', 4, 'white') 
-texto('a. Si', 5, 'lightblue')
-texto('b. No', 5, 'lightblue')
-texto('c. Comentarios:', 5, 'lightblue')
-
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
-
-texto('4. ¿Utilizó los filtros de categorías para encontrar puntos de interés específicos?', 4, 'white') 
-texto('a. Si', 5, 'lightblue')
-texto('b. No', 5, 'lightblue')
-texto('c. Comentarios:', 5, 'lightblue')
-
-
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
-
-texto('5. ¿Le resultó útil la opción de reservar experiencias (tours, clases de cocina, etc.) directamente desde la app?', 4, 'white') 
-texto('a. Si', 5, 'lightblue')
-texto('b. No', 5, 'lightblue')
-texto('c. Comentarios:', 5, 'lightblue')
-
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
-
-texto('6. ¿Qué tan satisfecho está con la integración del mapa interactivo y las experiencias en la app?', 4, 'white') 
-texto('a. Muy Satisfecho', 5, 'lightblue')
-texto('b. Satisfecho', 5, 'lightblue')
 texto('c. Neutral', 5, 'lightblue')
 texto('d. Insatisfecho', 5, 'lightblue')
-texto('e. Muy Insatisfecho', 5, 'lightblue')
+texto('f. Muy insatisfecho', 5, 'lightblue')
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
 
-texto('7. ¿Recibió notificaciones claras y útiles sobre las reservas de experiencias?', 4, 'white') 
+texto('2. ¿Qué tipo de usuario es usted?', 4, 'white') 
+texto('a. Turista', 5, 'lightblue')
+texto('b. Viajero de negocios', 5, 'lightblue')
+texto('c. Participante en convenciones', 5, 'lightblue')
+texto('d. Otro', 5, 'lightblue')
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
+
+texto('3. ¿Qué nueva funcionalidad te gustaría ver en nuestra aplicación?', 4, 'white') 
+texto('a. Sistema de Recomendación Personalizado: Basado en las preferencias y comportamientos del usuario.', 5, 'lightblue')
+texto('b. Chat en Tiempo Real: Entre anfitriones y huéspedes.', 5, 'lightblue')
+texto('c. Integración con Servicios de Transporte: Para facilitar el traslado desde y hacia el alojamiento.', 5, 'lightblue')
+texto('d. Mapas Interactivos: Que muestren puntos de interés cercanos al alojamiento.', 5, 'lightblue')
+texto('f. Sistema de Revisión y Calificación Mejorado: Con más detalles y filtros.', 5, 'lightblue')
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
+
+texto('4.  En cuanto a la funcionalidad "Sistema de Recomendación Personalizado", ¿qué aspectos te gustaría que se consideren para las recomendaciones? ', 4, 'white') 
+texto('a. Historial de reservas', 5, 'lightblue')
+texto('b. Preferencias declaradas', 5, 'lightblue')
+texto('c. Recomendaciones de otros usuarios similares', 5, 'lightblue')
+texto('d. Opiniones y reseñas de experiencias anteriores', 5, 'lightblue')
+texto('f. Otro', 5, 'lightblue')
+
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
+
+texto('5. Si se implementara un "Chat en Tiempo Real" entre anfitriones y huéspedes, ¿con qué frecuencia crees que lo usarías?', 4, 'white') 
+texto('a. Muy frecuentemente', 5, 'lightblue')
+texto('b. Frecuentemente', 5, 'lightblue')
+texto('c. Ocasionalmente', 5, 'lightblue')
+texto('d. Raramente', 5, 'lightblue')
+texto('f. Nunca', 5, 'lightblue')
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
+
+texto('6. En caso de integrar "Servicios de Transporte" en la app, ¿qué tipo de servicios te gustaría que se incluyeran?', 4, 'white') 
+texto('a. Taxis', 5, 'lightblue')
+texto('b. Uber, Lyft, Cabify, Google Drive, etc', 5, 'lightblue')
+texto('c. Alquiler de coches', 5, 'lightblue')
+texto('d. Transporte público', 5, 'lightblue')
+texto('f. Otro', 5, 'lightblue')
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
+
+texto('7. Si la funcionalidad de "Mapas Interactivos" se implementara, ¿qué tipo de puntos de interés te gustaría ver?', 4, 'white') 
+texto('a. Restaurantes', 5, 'lightblue')
+texto('b. Museos', 5, 'lightblue')
+texto('c. Tiendas', 5, 'lightblue')
+texto('d. Parques y atracciones naturales', 5, 'lightblue')
+texto('f. Otro', 5, 'lightblue')
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
+
+texto('8. ¿Qué características consideras más importantes en un "Sistema de Revisión y Calificación Mejorado"? ', 4, 'white') 
+texto('a. Detalles específicos sobre la experiencia', 5, 'lightblue')
+texto('b. Filtros para buscar reseñas por tipo de usuario', 5, 'lightblue')
+texto('c. Fotos y videos adjuntos a las reseñas', 5, 'lightblue')
+texto('d. Respuestas de los anfitriones a las reseñas', 5, 'lightblue')
+texto('f. Otro', 5, 'lightblue')
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
+
+texto('9. ¿Cómo prefieres que se te notifique sobre nuevas funcionalidades y actualizaciones en la app?', 4, 'white') 
+texto('a. Notificaciones push en la app', 5, 'lightblue')
+texto('b. Correo electrónico', 5, 'lightblue')
+texto('c. Mensajes de texto', 5, 'lightblue')
+texto('d. Whatsapp', 5, 'lightblue')
+texto('f. Otro', 5, 'lightblue')
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
+
+texto('10. ¿Hay alguna otra funcionalidad que te gustaría ver en nuestra aplicación que no hayamos mencionado?', 4, 'white') 
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
+
+texto('11. ¿Te gustaría participar en pruebas beta de nuevas funcionalidades?', 4, 'white') 
 texto('a. Si', 5, 'lightblue')
 texto('b. No', 5, 'lightblue')
-texto('c. Comentarios:', 5, 'lightblue')
+
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
 
-texto('8. ¿Qué funcionalidades adicionales le gustaría ver en la sección de experiencias y mapas interactivos?', 4, 'white') 
+texto('12. ¿Tienes algún comentario adicional o sugerencia para mejorar nuestra app?', 4, 'white') 
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
 
-texto('9. ¿Hay algo que le haya resultado difícil o confuso al usar esta nueva funcionalidad? ', 4, 'white') 
-
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
-
-texto('10. ¿Recomendaría esta nueva funcionalidad a otros usuarios?', 4, 'white') 
-texto('a. Si', 5, 'lightblue')
-texto('b. No', 5, 'lightblue')
-texto('c. Comentarios:', 5, 'lightblue')
-
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
-
-texto('11. Edad:', 4, 'white') 
-texto('a. de 18 a 25 años', 5, 'lightblue')
-texto('b. de 26 a 35 años', 5, 'lightblue')
-texto('c. de 36 a 45 años', 5, 'lightblue')
-texto('d. de 46 a 55 años', 5, 'lightblue')
-texto('e. de 56 a 65 años', 5, 'lightblue')
-texto('f. Mayor de 65 años', 5, 'lightblue')
-
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
-
+texto('¡Gracias por tu tiempo y tus valiosas opiniones! Tus respuestas nos ayudarán a mejorar nuestra app para brindarte una mejor experiencia.', 4, 'white')
 
 #st.markdown('<a href="https://confort.streamlit.app/Backlog" target="_self">Next page</a>', unsafe_allow_html=True)
                
