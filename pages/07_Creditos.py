@@ -73,28 +73,22 @@ photo_link("Silvertech", "https://github.com/Willy71/confort/blob/main/pictures/
 
 st.subheader("")
                
+centrar_texto("Socios estratégicos", 4, 'white') 
 with st.container():
-    col10, col11 = st.columns(2)
+    col10, col11, col12  = st.columns(3)
     with col10:
-        centrar_texto("Socios estratégicos", 4, 'white')
-    with col11:
-        centrar_texto("Impulsan", 4, 'white')
-        
-with st.container():
-    col01, col02, col03, col04 = st.columns(4)
-    with col01:
-        st.text("")
         photo_link("Diagonal", "https://github.com/Willy71/confort/blob/main/pictures/diagonal.png?raw=true", "https://diagonal.org.ar/", 100)
-    with col02:
-        st.text("")
-        photo_link("Bolster", "https://github.com/Willy71/confort/blob/main/pictures/Bolster.png?raw=true", "https://www.hibolster.com/index.html", 100)
-    with col03:
-        st.text("")
+    with col12:
+        photo_link("Bolster", "https://github.com/Willy71/confort/blob/main/pictures/Bolster.png?raw=true", "https://www.hibolster.com/index.html", 100)        
+
+centrar_texto("Impulsan", 4, 'white')
+with st.container():
+    col01, col02, col03 = st.columns(3)
+    with col01:
         photo_link("Eidos", "https://github.com/Willy71/confort/blob/main/pictures/Eidos.png?raw=true", "https://www.eidosglobal.org/", 100)
-    with col04:
-        st.text("")
+    with col03:
         photo_link("Bid Lab", "https://github.com/Willy71/confort/blob/main/pictures/bid%20lab.png?raw=true", "https://bidlab.org/es", 130)
-       
+               
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 centrar_texto("Mis redes sociales", 2, 'white')
 with st.container():    
