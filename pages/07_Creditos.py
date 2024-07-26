@@ -73,7 +73,7 @@ photo_link("Silvertech", "https://github.com/Willy71/confort/blob/main/pictures/
 
 st.subheader("")
                
-centrar_texto("Socios estratégicos", 4, 'white') 
+centrar_texto("Socios estratégicos", 4, 'lightblue') 
 with st.container():
     col10, col11, col12, col13, col14  = st.columns([4,2,0.1,2,4])
     with col11:
@@ -81,7 +81,7 @@ with st.container():
     with col13:
         photo_link("Bolster", "https://github.com/Willy71/confort/blob/main/pictures/Bolster.png?raw=true", "https://www.hibolster.com/index.html", 100)        
 st.subheader("")
-centrar_texto("Impulsan", 4, 'white')
+centrar_texto("Impulsan", 4, 'lightblue')
 with st.container():
     col01, col02, col03, col04, col05 = st.columns([4,2,0.1,2,4])
     with col02:
