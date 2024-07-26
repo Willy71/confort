@@ -204,7 +204,7 @@ st.text("")
 texto('Prioridad: 3', 5, 'white')  
 texto('Fecha estimada de entrega: 13/09/2024', 5, 'white')
 centrar_texto_link("Link - Historia 10 en Jira","https://tradingmcz.atlassian.net/browse/CSLEEM-21?atlOrigin=eyJpIjoiN2E5ZDM1ZTIwNzIxNDM0NTkyOTRjNjFlZmQyYjVlNGQiLCJwIjoiaiJ9", 5, 'blue')
-
+centrar_texto_link("Link - Figma - Sistema de Recompensas por Reservas", "https://www.figma.com/proto/MMSnWmgHF5TBpEbxJ9iR8a/Confort-for-Silvertech?node-id=78-10&t=MEAt5A3U10VCq6ZC-0&scaling=scale-down&content-scaling=fixed&page-id=78%3A9", 5, 'blue')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#3ebc32;" /> """, unsafe_allow_html=True)
 
 with st.container():
