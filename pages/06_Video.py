@@ -37,17 +37,17 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1
 video_url = 'https://youtu.be/uUjNcp778eU'
 
 # URL de la miniatura de YouTube (asegúrate de que tenga las dimensiones correctas)
-#thumbnail_url = ''
+thumbnail_url = 'https://github.com/Willy71/confort/blob/main/pictures/Miniatura%20-%20Analista%20funcional.png?raw=true'
 
 # HTML y CSS para ajustar la imagen
-#thumbnail_html = f"""
-#<div style="display: flex; justify-content: center; align-items: center; height: 720px; width: 1280px;">
-#    <img src="{thumbnail_url}" style="width: 100%; height: 100%; object-fit: contain;">
-#</div>
-#"""
+thumbnail_html = f"""
+<div style="display: flex; justify-content: center; align-items: center; height: 720px; width: 1280px;">
+    <img src="{thumbnail_url}" style="width: 100%; height: 100%; object-fit: contain;">
+</div>
+"""
 
 # Mostrar la miniatura como imagen
-#st.markdown(thumbnail_html, unsafe_allow_html=True)
+st.markdown(thumbnail_html, unsafe_allow_html=True)
 
 # Reproducir el video
 st.video(video_url)
