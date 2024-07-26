@@ -36,7 +36,7 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1
 video_url = "https://youtu.be/uUjNcp778eU"
 
 with st.container():
-    col1, col2, col3 =st.columns([0.5,2,0.5])    
+    col1, col2, col3 =st.columns([1,3,1])    
     with col2:    
         st.video(video_url)
 
