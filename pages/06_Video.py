@@ -35,9 +35,10 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1
 
 video_url = "https://youtu.be/uUjNcp778eU"
 
-col1,col2=st.columns([1,3])    
-with col1:    
-    st.video(video_url)
+with st.container():
+    col1, col2, col3 =st.columns([1,5,1])    
+    with col2:    
+        st.video(video_url)
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1717dc;" /> """, unsafe_allow_html=True)
 
