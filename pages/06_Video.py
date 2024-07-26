@@ -33,9 +33,11 @@ st.write("#")
 centrar_texto("Video presentación del proyecto", 1, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1717dc;" /> """, unsafe_allow_html=True)
 
-VIDEO_DATA = "https://youtu.be/uUjNcp778eU"
+video_url = "https://youtu.be/uUjNcp778eU"
 
-st.video(VIDEO_DATA)
+col1,col2=st.columns([1,3])    
+with col1:    
+    st.video(video_url)
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1717dc;" /> """, unsafe_allow_html=True)
 
