@@ -178,7 +178,7 @@ st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1
 
 texto('¡Gracias por tu tiempo y tus valiosas opiniones! Tus respuestas nos ayudarán a mejorar nuestra app para brindarte una mejor experiencia.', 4, 'white')
 
-#st.markdown('<a href="https://confort.streamlit.app/Backlog" target="_self">Next page</a>', unsafe_allow_html=True)
+st.markdown('<a href="https://confort.streamlit.app/Backlog" target="_self">Next page</a>', unsafe_allow_html=True)
                
 with st.container():
     col01, col02, col03 = st.columns(3)
