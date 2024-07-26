@@ -25,7 +25,7 @@ def texto(texto, tamanho, color):
             unsafe_allow_html=True)
     
 def centrar_texto_link(link_texto, link_url, tamanho, color):
-    texto_html = f"<h{tamanho} style='text-align: center; color: {color}'><a href='{link_url}' style='text-decoration: none;' target='_blank'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{link_texto}</a></h{tamanho}>"
+    texto_html = f"<h{tamanho} style='text-align: center; color: {color}'><a href='{link_url}' target='_blank'>{link_texto}</a></h{tamanho}>"
     st.markdown(texto_html, unsafe_allow_html=True)
     
 def centrar_imagen_link(imagen, link, nombre, ancho):
@@ -60,7 +60,7 @@ def photo_link(alt_text, img_url, link_url, img_width):
 st.write("#")
 
 centrar_texto("Images de figma", 1, 'white')
-centrar_texto_link("Link a Figma", "https://www.figma.com/files/team/1396528640782472952/recents-and-sharing/recently-viewed?fuid=1396528638461514079", 2, "blue")
+centrar_texto_link("Link a Figma", "https://www.figma.com/files/team/1396528640782472952/recents-and-sharing/recently-viewed?fuid=1396528638461514079", 5, "blue")
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ffb754;" /> """, unsafe_allow_html=True)
 centrar_texto("Imagen para la Historia 1", 3, 'white')
