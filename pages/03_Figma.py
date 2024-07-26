@@ -60,6 +60,7 @@ def photo_link(alt_text, img_url, link_url, img_width):
 st.write("#")
 
 centrar_texto("Images de figma", 1, 'white')
+centrar_texto_link("Link a Figma", "https://www.figma.com/files/team/1396528640782472952/recents-and-sharing/recently-viewed?fuid=1396528638461514079", 2, "blue")
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ffb754;" /> """, unsafe_allow_html=True)
 centrar_texto("Imagen para la Historia 1", 3, 'white')
