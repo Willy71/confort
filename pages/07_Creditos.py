@@ -80,7 +80,7 @@ with st.container():
         photo_link("Diagonal", "https://github.com/Willy71/confort/blob/main/pictures/diagonal.png?raw=true", "https://diagonal.org.ar/", 100)
     with col13:
         photo_link("Bolster", "https://github.com/Willy71/confort/blob/main/pictures/Bolster.png?raw=true", "https://www.hibolster.com/index.html", 100)        
-
+st.subheader("")
 centrar_texto("Impulsan", 4, 'white')
 with st.container():
     col01, col02, col03, col04, col05 = st.columns([4,2,0.1,2,4])
