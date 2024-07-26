@@ -33,8 +33,24 @@ st.write("#")
 centrar_texto("Video presentación del proyecto", 1, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1717dc;" /> """, unsafe_allow_html=True)
 
-VIDEO_URL = "https://youtu.be/uUjNcp778eU"
-st.video(VIDEO_URL)
+# URL del video de YouTube
+video_url = 'https://youtu.be/uUjNcp778eU'
+
+# URL de la miniatura de YouTube (asegúrate de que tenga las dimensiones correctas)
+#thumbnail_url = 'https://path_to_your_thumbnail_image.jpg'
+
+# HTML y CSS para ajustar la imagen
+#thumbnail_html = f"""
+#<div style="display: flex; justify-content: center; align-items: center; height: 720px; width: 1280px;">
+#    <img src="{thumbnail_url}" style="width: 100%; height: 100%; object-fit: contain;">
+#</div>
+#"""
+
+# Mostrar la miniatura como imagen
+#st.markdown(thumbnail_html, unsafe_allow_html=True)
+
+# Reproducir el video
+st.video(video_url)
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1717dc;" /> """, unsafe_allow_html=True)
 
