@@ -33,8 +33,8 @@ st.write("#")
 centrar_texto("Video presentación del proyecto", 1, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1717dc;" /> """, unsafe_allow_html=True)
 
-#video_url = "https://youtu.be/M4NeIIbvKZ8"
-video_url = "https://drive.google.com/file/d/1FUGzNcRRjdKT18eUaLOrVWqf0lLB_TY3/view?usp=sharing"
+video_url = "https://youtu.be/M4NeIIbvKZ8"
+#video_url = "https://drive.google.com/file/d/1FUGzNcRRjdKT18eUaLOrVWqf0lLB_TY3/view?usp=sharing"
 
 with st.container():
     col1, col2, col3 =st.columns([1,3,1])    
