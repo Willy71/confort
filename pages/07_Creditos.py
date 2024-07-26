@@ -75,7 +75,7 @@ st.subheader("")
                
 centrar_texto("Socios estratégicos", 4, 'white') 
 with st.container():
-    col10, col11, col12, col13, col14  = st.columns([2,3,0.1,3,2])
+    col10, col11, col12, col13, col14  = st.columns([3,2,0.1,2,3])
     with col11:
         photo_link("Diagonal", "https://github.com/Willy71/confort/blob/main/pictures/diagonal.png?raw=true", "https://diagonal.org.ar/", 100)
     with col13:
@@ -83,7 +83,7 @@ with st.container():
 
 centrar_texto("Impulsan", 4, 'white')
 with st.container():
-    col01, col02, col03, col04, col05 = st.columns([2,3,0.1,3,2])
+    col01, col02, col03, col04, col05 = st.columns([3,2,0.1,2,3])
     with col02:
         photo_link("Eidos", "https://github.com/Willy71/confort/blob/main/pictures/Eidos.png?raw=true", "https://www.eidosglobal.org/", 100)
     with col04:
