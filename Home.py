@@ -12,12 +12,12 @@ st.set_page_config(
 st.markdown(
     """
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-**********"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZY2745B9DJ"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-**********');
+            gtag('config', 'G-ZY2745B9DJ');
         </script>
     """, unsafe_allow_html=True)
 
