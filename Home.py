@@ -22,19 +22,6 @@ st_gtag(
     },
 )
 
-if st.button("Send Event A"):
-    st_gtag(
-        key="gtag_send_event_b",
-        id="G-ZY2745B9DJ",
-        event_name="send_event_button",
-        params={
-            "event_category": "test_category_b",
-            "event_label": "test_label_b",
-            "value": 97,
-        },
-    )
-
-
 #st.markdown(
 #    """
 #        <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -118,7 +105,19 @@ with st.container():
     col01, col02, col03 = st.columns(3)
     with col03:
         if st.button("Siguiente", use_container_width=True):
+            st_gtag(
+            key="gtag_send_event_b",
+            id="G-ZY2745B9DJ",
+            event_name="send_event_button",
+            params={
+                "event_category": "test_category_b",
+                "event_label": "test_label_b",
+                "value": 97,
+                },
+            )
             st.switch_page("pages/01_Encuesta_para_relevar_info.py")
+        
+
 
 
 
