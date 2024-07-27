@@ -1,5 +1,6 @@
 import streamlit as st
-import streamlit.components.v1 as components
+from streamlit_gtag import st_gtag
+#import streamlit.components.v1 as components
 
 # Colocar nome na pagina, icone e ampliar a tela
 st.set_page_config(
@@ -9,6 +10,31 @@ st.set_page_config(
 )
 
 ###########################################################################################################
+
+st_gtag(
+    key="gtag_send_event_a",
+    id="G-ZY2745B9DJ",
+    event_name="app_main_page",
+    params={
+        "event_category": "test_category_a",
+        "event_label": "test_label_a",
+        "value": 97,
+    },
+)
+
+if st.button("Send Event A"):
+    st_gtag(
+        key="gtag_send_event_b",
+        id="G-ZY2745B9DJ",
+        event_name="send_event_button",
+        params={
+            "event_category": "test_category_b",
+            "event_label": "test_label_b",
+            "value": 97,
+        },
+    )
+
+
 #st.markdown(
 #    """
 #        <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -22,9 +48,9 @@ st.set_page_config(
 #    """, unsafe_allow_html=True)
 
 # Include Google Analytics tracking code
-with open("google_analytics.html", "r") as f:
-    html_code = f.read()
-    components.html(html_code, height=0)
+#with open("google_analytics.html", "r") as f:
+#    html_code = f.read()
+#    components.html(html_code, height=0)
 ###########################################################################################################
 
 page_bg_img = f"""
