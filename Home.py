@@ -10,17 +10,27 @@ st.set_page_config(
 )
 
 ###########################################################################################################
-
 st_gtag(
-    key="gtag_send_event_a",
+    key="gtag_send_event_page_load",
     id="G-ZY2745B9DJ",
-    event_name="app_main_page",
+    event_name="app_main_page_load",
     params={
-        "event_category": "test_category_a",
-        "event_label": "test_label_a",
-        "value": 97,
+        "event_category": "page_load",
+        "event_label": "main_page",
+        "value": 1,
     },
 )
+
+#st_gtag(
+#    key="gtag_send_event_a",
+#    id="G-ZY2745B9DJ",
+#    event_name="app_main_page",
+#    params={
+#        "event_category": "test_category_a",
+#        "event_label": "test_label_a",
+#        "value": 97,
+#    },
+#)
 
 #st.markdown(
 #    """
@@ -105,16 +115,16 @@ with st.container():
     col01, col02, col03 = st.columns(3)
     with col03:
         if st.button("Siguiente", use_container_width=True):
-            st_gtag(
-            key="gtag_send_event_b",
-            id="G-ZY2745B9DJ",
-            event_name="send_event_button",
-            params={
-                "event_category": "test_category_b",
-                "event_label": "test_label_b",
-                "value": 97,
-                },
-            )
+            #st_gtag(
+            #key="gtag_send_event_b",
+            #id="G-ZY2745B9DJ",
+            #event_name="send_event_button",
+            #params={
+            #    "event_category": "test_category_b",
+            #    "event_label": "test_label_b",
+            #    "value": 97,
+            #    },
+            #)
             st.switch_page("pages/01_Encuesta_para_relevar_info.py")
         
 
