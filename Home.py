@@ -7,6 +7,27 @@ st.set_page_config(
     layout="wide"
 )
 
+###########################################################################################################
+# Track Google Analitics
+GA_TRACKING_ID = 'G-ZY2745B9DJ'
+
+ga_script = f"""
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZY2745B9DJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZY2745B9DJ');
+</script>
+"""
+
+# Incrustar el código en la página
+st.components.v1.html(ga_script, height=0)
+
+###########################################################################################################
+
 page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
