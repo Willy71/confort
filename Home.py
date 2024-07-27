@@ -16,7 +16,7 @@ ga_script = f"""
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZY2745B9DJ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)};
+  function gtag(){dataLayer.push(arguments);};
   gtag('js', new Date());
 
   gtag('config', 'G-ZY2745B9DJ');
