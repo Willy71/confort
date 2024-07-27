@@ -9,22 +9,22 @@ st.set_page_config(
 )
 
 ###########################################################################################################
-st.markdown(
-    """
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZY2745B9DJ"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-ZY2745B9DJ');
-        </script>
-    """, unsafe_allow_html=True)
+#st.markdown(
+#    """
+#        <!-- Global site tag (gtag.js) - Google Analytics -->
+#        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZY2745B9DJ"></script>
+#        <script>
+#            window.dataLayer = window.dataLayer || [];
+#            function gtag(){dataLayer.push(arguments);}
+#            gtag('js', new Date());
+#            gtag('config', 'G-ZY2745B9DJ');
+#        </script>
+#    """, unsafe_allow_html=True)
 
 # Include Google Analytics tracking code
-#with open("google_analytics.html", "r") as f:
-#    html_code = f.read()
-#    components.html(html_code, height=0)
+with open("google_analytics.html", "r") as f:
+    html_code = f.read()
+    components.html(html_code, height=0)
 ###########################################################################################################
 
 page_bg_img = f"""
