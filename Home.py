@@ -127,7 +127,7 @@ if img_base64:
     )
 
 st.write("#")
-centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/2.png?raw=true", 450)
+centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/2.png?raw=true", 1200)
 #centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/titular3.png?raw=true", 450)
 #centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/001.png?raw=true", 300)
 
