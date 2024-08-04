@@ -1,4 +1,6 @@
 import streamlit as st
+import smtplib
+from email.mime.text import MIMEText
 
 # Colocar nome na pagina, icone e ampliar a tela
 st.set_page_config(
