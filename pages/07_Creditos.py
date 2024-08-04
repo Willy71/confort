@@ -139,9 +139,9 @@ with st.container():
         left_texto_link("OBS", "https://obsproject.com/", 3, "white")
         left_texto_link("Cap Cut", "https://obsproject.com/", 3, "white") 
 
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 centrar_texto('Send an email 💌', 1, 'white')
 
-st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 with st.container():
     co01, co02, co03 = st.columns([2, 4, 2])
     with co02:
