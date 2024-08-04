@@ -72,15 +72,6 @@ right: 2rem;
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-# Load and display sidebar image
-img_path = "pictures/001.png"
-img_base64 = img_to_base64(img_path)
-if img_base64:
-    st.sidebar.markdown(
-        f'<img src="data:image/png;base64,{img_base64}" class="cover-glow">',
-        unsafe_allow_html=True,
-    )
-
 def centrar_imagen(imagen, ancho):
     # Aplicar estilo CSS para centrar la imagen con Markdown
     st.markdown(
@@ -122,6 +113,15 @@ def img_to_base64(image_path):
     except Exception as e:
         logging.error(f"Error converting image to base64: {str(e)}")
         return None
+
+# Load and display sidebar image
+img_path = "pictures/001.png"
+img_base64 = img_to_base64(img_path)
+if img_base64:
+    st.sidebar.markdown(
+        f'<img src="data:image/png;base64,{img_base64}" class="cover-glow">',
+        unsafe_allow_html=True,
+    )
 
 st.write("#")
 
