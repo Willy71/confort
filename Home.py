@@ -120,16 +120,14 @@ img_path = "pictures/001.png"
 img_base64 = img_to_base64(img_path)
 if img_base64:
     st.sidebar.markdown(
-        f'<img src="data:image/png;base64,{img_base64}" class="cover-glow">',
+        f'<img src="data:image/png;base64,{img_base64}" class="cover-glow" align="center">',
         unsafe_allow_html=True,
     )
 
 st.write("#")
 
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/titular3.png?raw=true", 450)
-
 centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/001.png?raw=true", 300)
-#https://github.com/Willy71/confort/blob/main/pictures/confort_remove.png?raw=true
 
 with st.container():
     col01, col02, col03 = st.columns(3)
