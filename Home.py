@@ -131,7 +131,7 @@ centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/2.png?raw=
 #centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/001.png?raw=true", 300)
 
 st.write("#")
-st.title("")
+centrar_texto("", 4, "white")
 with st.container():
     col01, col02, col03 = st.columns(3)
     with col03:
