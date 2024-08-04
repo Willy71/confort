@@ -71,6 +71,15 @@ right: 2rem;
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
+# Load and display sidebar image
+img_path = "https://github.com/Willy71/confort/blob/main/pictures/001.png?raw=true"
+img_base64 = img_to_base64(img_path)
+if img_base64:
+    st.sidebar.markdown(
+        f'<img src="data:image/png;base64,{img_base64}" class="cover-glow">',
+        unsafe_allow_html=True,
+    )
+
 def centrar_imagen(imagen, ancho):
     # Aplicar estilo CSS para centrar la imagen con Markdown
     st.markdown(
