@@ -1,5 +1,6 @@
 import streamlit as st
 from streamlit_gtag import st_gtag
+import logging
 import base64
 #import streamlit.components.v1 as components
 
