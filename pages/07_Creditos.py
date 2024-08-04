@@ -138,6 +138,37 @@ with st.container():
         left_texto_link("Canva", "https://www.canva.com/", 3, "white")
         left_texto_link("OBS", "https://obsproject.com/", 3, "white")
         left_texto_link("Cap Cut", "https://obsproject.com/", 3, "white") 
+
+centrar_texto('Send an email 💌', 1, 'white')
+
+st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
+with st.container():
+    co01, co02, co03 = st.columns([2, 4, 2])
+    with co02:
+        # Taking inputs
+        email_sender = 'gcerato@gmail.com'
+        email_receiver = 'gcerato@gmail.com'
+        email = st.text_input("Email")
+        subject = st.text_input('Subject')
+        body = st.text_area('Body')
+        total = (body + "               " + email)
+
+        if st.button("Send Email"):
+            try:
+                msg = MIMEText(total)
+                msg['From'] = email_sender
+                msg['To'] = email_receiver
+                msg['Subject'] = subject
+
+                server = smtplib.SMTP('smtp.gmail.com', 587)
+                server.starttls()
+                server.login(st.secrets["email"]["gmail"], st.secrets["email"]["password"])
+                server.sendmail(email_sender, email_receiver, msg.as_string())
+                server.quit()
+        
+                st.success('Email sent successfully! 🚀')
+            except Exception as e:
+                st.error(f"Failed to send email: {e}")
                
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#e1e615;" /> """, unsafe_allow_html=True)
 with st.container():
