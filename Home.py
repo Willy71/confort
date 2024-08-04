@@ -72,7 +72,7 @@ right: 2rem;
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Load and display sidebar image
-img_path = "https://github.com/Willy71/confort/blob/main/pictures/001.png?raw=true"
+img_path = "pictures/001.png"
 img_base64 = img_to_base64(img_path)
 if img_base64:
     st.sidebar.markdown(
