@@ -120,7 +120,7 @@ img_path = "pictures/001.png"
 img_base64 = img_to_base64(img_path)
 if img_base64:
     st.sidebar.markdown(
-        f'<img src="data:image/png;base64,{img_base64}" class="cover-glow" align="center">',
+        f'<img src="data:image/png;base64,{img_base64}" class="cover-glow" style="vertical-align:top"">',
         unsafe_allow_html=True,
     )
 
