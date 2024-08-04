@@ -127,9 +127,9 @@ if img_base64:
     )
 
 st.write("#")
-
-centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/titular3.png?raw=true", 450)
-centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/001.png?raw=true", 300)
+centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/2.png?raw=true", 450)
+#centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/titular3.png?raw=true", 450)
+#centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/001.png?raw=true", 300)
 
 with st.container():
     col01, col02, col03 = st.columns(3)
