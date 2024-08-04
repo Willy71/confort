@@ -1,5 +1,6 @@
 import streamlit as st
 from streamlit_gtag import st_gtag
+import base64
 #import streamlit.components.v1 as components
 
 # Colocar nome na pagina, icone e ampliar a tela
