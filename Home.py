@@ -12,6 +12,8 @@ st.set_page_config(
 )
 
 ###########################################################################################################
+# Codigo para medir audiencia con Google Analytics
+
 st_gtag(
     key="gtag_send_event_page_load",
     id="G-ZY2745B9DJ",
@@ -120,7 +122,7 @@ img_path = "pictures/001.png"
 img_base64 = img_to_base64(img_path)
 if img_base64:
     st.sidebar.markdown(
-        f'<img src="data:image/png;base64,{img_base64}" class="cover-glow" width="90" height="70" style="float:left">',
+        f'<img src="data:image/png;base64,{img_base64}" class="cover-glow" width="270" height="210" style="float:left">',
         unsafe_allow_html=True,
     )
 
