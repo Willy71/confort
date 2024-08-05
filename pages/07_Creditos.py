@@ -128,7 +128,7 @@ centrar_texto("Herramientas utilizadas.", 1, 'white' )
 
 with st.container():
     col60, col61, col62, col63, col64 = st.columns([2,5,1,5,0.5])
-    with col61
+    with col61:
         left_texto_link("Google Docs", "https://docs.google.com/document/u/0/",  3, "white")
         left_texto_link("Jira", "https://www.atlassian.com/software/jira",  3, "white")
         left_texto_link("Figma", "https://www.figma.com/es-la/",  3, "white")
