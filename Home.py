@@ -126,7 +126,7 @@ if img_base64:
         unsafe_allow_html=True,
     )
 
-centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Nueva%20funcionalidad%20para%20app%20Confort.png?raw=true", 1200)
+centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Confort%20003.png?raw=true", 1200)
 #centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/titular3.png?raw=true", 450)
 #centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/001.png?raw=true", 300)
 
