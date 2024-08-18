@@ -7,6 +7,18 @@ st.set_page_config(
     layout="wide"
 )
 
+# We reduced the empty space at the beginning of the streamlit
+reduce_space ="""
+            <style type="text/css">
+            /* Remueve el espacio en el encabezado por defecto de las apps de Streamlit */
+            div[data-testid="stAppViewBlockContainer"]{
+                padding-top:30px;
+            }
+            </style>
+            """
+# We load reduce_space
+st.html(reduce_space)
+
 def centrar_imagen(imagen, ancho):
     # Aplicar estilo CSS para centrar la imagen con Markdown
     st.markdown(
@@ -63,8 +75,6 @@ def photo_link_right(alt_text, img_url, link_url, img_width):
     </div>
     '''
     st.markdown(markdown_code, unsafe_allow_html=True)
-
-st.write("#")
 
 centrar_texto("Encuesta para Relevamiento de Información", 1, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#15ace6;" /> """, unsafe_allow_html=True)
