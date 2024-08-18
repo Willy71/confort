@@ -70,7 +70,7 @@ def video(url):
                     <div style="display: flex; justify-content: center;">
                         <iframe width="1280" height="720"
                         src="{embed_url}" 
-                        frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        frameborder="0">
                         </iframe>
                     </div>
                     """, unsafe_allow_html=True)
