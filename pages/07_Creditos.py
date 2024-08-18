@@ -75,8 +75,6 @@ def photo_link(alt_text, img_url, link_url, img_width):
     '''
     st.markdown(markdown_code, unsafe_allow_html=True)
 
-st.write("#")
-
 centrar_texto("Trabajo realizado", 1, 'white')
 centrar_texto("por", 1, 'white')
 centrar_texto("Guillermo Cerato", 1, 'white')
