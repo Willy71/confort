@@ -68,9 +68,9 @@ def video(url):
         embed_url = f"https://www.youtube.com/embed/{video_id}"
         st.markdown(f"""
                     <div style="display: flex; justify-content: center;">
-                        <iframe width="1280" height="720"
+                        <iframe width="1280" height="300"
                         src="{embed_url}" 
-                        frameborder="0">
+                        frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>
                     </div>
                     """, unsafe_allow_html=True)
