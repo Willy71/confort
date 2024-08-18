@@ -1,4 +1,5 @@
 import streamlit as st
+from urllib.parse import urlparse, parse_qs
 
 # Colocar nome na pagina, icone e ampliar a tela
 st.set_page_config(
