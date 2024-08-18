@@ -43,13 +43,47 @@ def centrar_texto_link(link_texto, link_url, tamanho, color):
 centrar_texto("Video presentación del proyecto", 1, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1717dc;" /> """, unsafe_allow_html=True)
 
+def video(url):
+    # Parsear la URL para extraer el video_id
+    parsed_url = urlparse(url)
+    video_id = ""
+    
+    if parsed_url.hostname == "youtu.be":
+        # Formato corto de YouTube: https://youtu.be/video_id
+        video_id = parsed_url.path[1:]
+    elif parsed_url.hostname in ["www.youtube.com", "youtube.com"]:
+        if parsed_url.path == "/watch":
+            # URL normal: https://www.youtube.com/watch?v=video_id
+            video_id = parse_qs(parsed_url.query).get("v", [None])[0]
+        elif parsed_url.path.startswith("/embed/"):
+            # URL embed: https://www.youtube.com/embed/video_id
+            video_id = parsed_url.path.split("/")[2]
+        elif parsed_url.path.startswith("/v/"):
+            # URL tipo /v/: https://www.youtube.com/v/video_id
+            video_id = parsed_url.path.split("/")[2]
+    
+    # Generar la URL de embed si se encontró el video_id
+    if video_id:
+        embed_url = f"https://www.youtube.com/embed/{video_id}"
+        st.markdown(f"""
+                    <div style="display: flex; justify-content: center;">
+                        <iframe width="832" height="507"
+                        src="{embed_url}" 
+                        frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>
+                    </div>
+                    """, unsafe_allow_html=True)
+    else:
+        st.error("No se pudo extraer el ID del video. Asegúrate de que el enlace sea válido.")
+
+
 video_url = "https://youtu.be/M4NeIIbvKZ8"
 #video_url = "https://drive.google.com/file/d/1FUGzNcRRjdKT18eUaLOrVWqf0lLB_TY3/view?usp=sharing"
 
 with st.container():
     col1, col2, col3 =st.columns([1,3,1])    
     with col2:    
-        st.video(video_url)
+        video(video_url)
 
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#1717dc;" /> """, unsafe_allow_html=True)
 
