@@ -11,6 +11,18 @@ st.set_page_config(
     layout="wide"
 )
 
+# We reduced the empty space at the beginning of the streamlit
+reduce_space ="""
+            <style type="text/css">
+            /* Remueve el espacio en el encabezado por defecto de las apps de Streamlit */
+            div[data-testid="stAppViewBlockContainer"]{
+                padding-top:30px;
+            }
+            </style>
+            """
+# We load reduce_space
+st.html(reduce_space)
+
 ###########################################################################################################
 # Codigo para medir audiencia con Google Analytics
 
@@ -130,7 +142,6 @@ centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/Confort%20
 #centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/titular3.png?raw=true", 450)
 #centrar_imagen("https://github.com/Willy71/confort/blob/main/pictures/001.png?raw=true", 300)
 
-st.write("#")
 centrar_texto("", 6, "white")
 with st.container():
     col01, col02, col03 = st.columns(3)
