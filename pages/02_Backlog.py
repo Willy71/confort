@@ -40,8 +40,6 @@ def centrar_texto_link(link_texto, link_url, tamanho, color):
     texto_html = f"<h{tamanho} style='text-align: center; color: {color}'><a href='{link_url}' target='_blank'>{link_texto}</a></h{tamanho}>"
     st.markdown(texto_html, unsafe_allow_html=True)
 
-st.write("#")
-
 centrar_texto("Épica: Experiencias y Mapas Interactivos", 1, 'white')
 centrar_texto_link('Link del backlog en Jira', 'https://tradingmcz.atlassian.net/jira/software/projects/CSLEEM/boards/2/backlog?atlOrigin=eyJpIjoiZTc1ZmQzM2FhN2RhNGJiNjk3ZTM4MWIwMjliMGIyN2MiLCJwIjoiaiJ9', 4, 'blue')
 
