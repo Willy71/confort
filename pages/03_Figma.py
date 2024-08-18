@@ -69,8 +69,6 @@ def photo_link(alt_text, img_url, link_url, img_width):
     '''
     st.markdown(markdown_code, unsafe_allow_html=True)
 
-st.write("#")
-
 centrar_texto("Images de figma", 1, 'white')
 centrar_texto_link("Link a Figma", "https://www.figma.com/files/team/1396528640782472952/recents-and-sharing/recently-viewed?fuid=1396528638461514079", 5, "blue")
 
