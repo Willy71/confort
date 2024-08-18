@@ -40,8 +40,6 @@ def centrar_texto_link(link_texto, link_url, tamanho, color):
     texto_html = f"<h{tamanho} style='text-align: center; color: {color}'><a href='{link_url}' target='_blank'>{link_texto}</a></h{tamanho}>"
     st.markdown(texto_html, unsafe_allow_html=True)
 
-st.write("#")
-
 centrar_texto("Jira - Instructivo", 1, 'white')
 st.markdown("""<hr style="height:10px;border:none;color:#333;background-color:#ef5626;" /> """, unsafe_allow_html=True)
 
